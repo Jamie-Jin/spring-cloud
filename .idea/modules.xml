@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jamie-service/data-a/api-a/api-a.iml" filepath="$PROJECT_DIR$/jamie-service/data-a/api-a/api-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jamie-service/common/common.iml" filepath="$PROJECT_DIR$/jamie-service/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jamie-service/common/common-config/common-config.iml" filepath="$PROJECT_DIR$/jamie-service/common/common-config/common-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jamie-service/common/common-util/common-util.iml" filepath="$PROJECT_DIR$/jamie-service/common/common-util/common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/config/config.iml" filepath="$PROJECT_DIR$/springcloud/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jamie-service/data-a/data-a.iml" filepath="$PROJECT_DIR$/jamie-service/data-a/data-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/eureka/eureka.iml" filepath="$PROJECT_DIR$/springcloud/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/feign/feign.iml" filepath="$PROJECT_DIR$/springcloud/feign/feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jamie-service/jamie-service.iml" filepath="$PROJECT_DIR$/jamie-service/jamie-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jamie_cloud.iml" filepath="$PROJECT_DIR$/jamie_cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jamie-service/common/mybatis-base/mybatis-base.iml" filepath="$PROJECT_DIR$/jamie-service/common/mybatis-base/mybatis-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jamie-service/common/redis/redis.iml" filepath="$PROJECT_DIR$/jamie-service/common/redis/redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jamie-service/data-a/service-a/service-a.iml" filepath="$PROJECT_DIR$/jamie-service/data-a/service-a/service-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/springcloud.iml" filepath="$PROJECT_DIR$/springcloud/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jamie-service/data-a/web-a/web-a.iml" filepath="$PROJECT_DIR$/jamie-service/data-a/web-a/web-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/zuul/zuul.iml" filepath="$PROJECT_DIR$/springcloud/zuul/zuul.iml" />
+    </modules>
+  </component>
+</project>

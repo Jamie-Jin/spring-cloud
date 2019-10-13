@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="redis" />
+        <module name="zuul" />
+        <module name="common-util" />
+        <module name="service-a" />
+        <module name="mybatis-base" />
+        <module name="config" />
+        <module name="common-config" />
+        <module name="eureka" />
+        <module name="web-a" />
+        <module name="api-a" />
+        <module name="feign" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-a" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="common-config" target="1.8" />
+      <module name="common-util" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="data-a" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="feigin" target="1.8" />
+      <module name="feign" target="1.8" />
+      <module name="jamie-service" target="1.8" />
+      <module name="jamie_cloud" target="1.8" />
+      <module name="mybatis-base" target="1.8" />
+      <module name="redis" target="1.8" />
+      <module name="service-a" target="1.8" />
+      <module name="springcloud" target="1.8" />
+      <module name="util" target="1.8" />
+      <module name="web-a" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-a" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="common-config" options="-parameters" />
+      <module name="common-util" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="data-a" options="" />
+      <module name="eureka" options="-parameters" />
+      <module name="feigin" options="-parameters" />
+      <module name="feign" options="-parameters" />
+      <module name="jamie-service" options="-parameters" />
+      <module name="jamie_cloud" options="-parameters" />
+      <module name="mybatis-base" options="-parameters" />
+      <module name="redis" options="-parameters" />
+      <module name="service-a" options="-parameters" />
+      <module name="springcloud" options="-parameters" />
+      <module name="util" options="-parameters" />
+      <module name="web-a" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
