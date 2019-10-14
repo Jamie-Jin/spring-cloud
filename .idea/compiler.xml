@@ -9,8 +9,10 @@
         <module name="web-a" />
         <module name="service-b" />
         <module name="service-a" />
+        <module name="oauth" />
         <module name="redis" />
         <module name="common-util" />
+        <module name="monitor" />
         <module name="feign" />
         <module name="zuul" />
         <module name="mybatis-mysql-base" />
@@ -36,8 +38,10 @@
       <module name="feign" target="1.8" />
       <module name="jamie-service" target="1.8" />
       <module name="jamie_cloud" target="1.8" />
+      <module name="monitor" target="1.8" />
       <module name="mybatis-base" target="1.8" />
       <module name="mybatis-mysql-base" target="1.8" />
+      <module name="oauth" target="1.8" />
       <module name="redis" target="1.8" />
       <module name="service-a" target="1.8" />
       <module name="service-b" target="1.8" />
@@ -63,8 +67,10 @@
       <module name="feign" options="-parameters" />
       <module name="jamie-service" options="-parameters" />
       <module name="jamie_cloud" options="-parameters" />
+      <module name="monitor" options="-parameters" />
       <module name="mybatis-base" options="-parameters" />
       <module name="mybatis-mysql-base" options="-parameters" />
+      <module name="oauth" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="service-a" options="-parameters" />
       <module name="service-b" options="-parameters" />

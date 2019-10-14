@@ -25,6 +25,8 @@
         <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-b/web-b/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/oauth/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/monitor/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -2,62 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79df1285-d4dd-453f-b31c-b2ad7ef6196b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-base/src/main/java/com/jamie/mybatis/base/datasource/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/src/main/java/com/jamie/mysql_mybatis_base/datasource/DruidProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/src/main/java/com/jamie/mysql_mybatis_base/datasource/HotDevDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/src/main/java/com/jamie/mysql_mybatis_base/datasource/MyBatisProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/src/main/java/com/jamie/mysql_mybatis_base/mybatis_dao/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jamie-service/data-b/web-b/src/main/java/com/jamie/web/b/controller/BController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/monitor/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/monitor/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/monitor/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/monitor/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/monitor/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/monitor/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/oauth/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/oauth/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/oauth/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/oauth/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/oauth/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/oauth/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/common/common-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/common/common-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/common/common-config/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/common/common-config/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/common/mybatis-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/common/mybatis-base/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-base/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/java/com/jamie/api/a/service/ADataApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/java/com/jamie/api/a/service/ADataApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/java/com/jamie/api/a/service/Urls.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/java/com/jamie/api/a/service/Urls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/ServiceAApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/ServiceAApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/config/DruidProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-base/src/main/java/com/jamie/mybatis/base/datasource/DruidProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/config/JamieDataSourceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/config/MyBatisProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/common/mybatis-base/src/main/java/com/jamie/mybatis/base/datasource/MyBatisProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/config/MySqlProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/dao/ADataDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/dao/ADataDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/rest/ADataRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/rest/ADataRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/web-a/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-a/web-a/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/web-a/src/main/java/com/jamie/weba/WebAApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-a/web-a/src/main/java/com/jamie/weba/WebAApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/web-a/src/main/java/com/jamie/weba/controller/AController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-a/web-a/src/main/java/com/jamie/weba/controller/AController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/web-a/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-a/web-a/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-b/api-b/src/main/java/com/jamie/api/b/service/BDataApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-b/api-b/src/main/java/com/jamie/api/b/service/BDataApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-b/api-b/src/main/java/com/jamie/api/b/service/Urls.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-b/api-b/src/main/java/com/jamie/api/b/service/Urls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/ServiceBApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/ServiceBApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/config/DruidProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/config/JamieDataSourceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/config/MyBatisProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/dao/BDataDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/dao/BDataDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/rest/BDataRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/rest/BDataRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-b/web-b/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-b/web-b/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud/config/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/config/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud/eureka/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/eureka/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud/feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud/zuul/src/main/java/com/jamie/zuul/ZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/zuul/src/main/java/com/jamie/zuul/ZuulApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud/zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/zuul/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud/zuul/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/zuul/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,6 +49,8 @@
     <ignored path="$PROJECT_DIR$/jamie-service/data-b/service-b/target/" />
     <ignored path="$PROJECT_DIR$/jamie-service/data-b/web-b/target/" />
     <ignored path="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/oauth/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/monitor/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,71 +61,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jamie-service/data-a/web-a/src/main/java/com/jamie/weba/controller/AController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud/zuul/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jamie-service/data-b/web-b/src/main/java/com/jamie/web/b/controller/BController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-              <folding>
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud/zuul/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springcloud/config/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jamie-service/common/common-config/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="65" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -188,9 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/config/DruidProperties.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/config/MyBatisProperties.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/config/MySqlProperties.java" />
         <option value="$PROJECT_DIR$/jamie-service/common/mybatis-base/src/main/java/com/jamie/mybatis/base/datasource/DruidProperties.java" />
         <option value="$PROJECT_DIR$/springcloud/config-repo/service-a.yml" />
         <option value="$PROJECT_DIR$/jamie-service/common/mybatis-base/src/main/java/com/jamie/mybatis/base/datasource/DataSourceConfig.java" />
@@ -239,6 +135,9 @@
         <option value="$PROJECT_DIR$/springcloud/zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud/zuul/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/springcloud/config/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/springcloud/oauth/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/monitor/pom.xml" />
       </list>
     </option>
   </component>
@@ -256,9 +155,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="949" />
-    <option name="width" value="980" />
-    <option name="height" value="1031" />
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -279,45 +178,6 @@
               <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -332,7 +192,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud/monitor" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -408,9 +268,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jamie.monitor.MonitorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MysqlMybatisBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mybatis-mysql-base" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jamie.mysql_mybatis_base.MysqlMybatisBaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OauthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oauth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jamie.oauth.OauthApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -464,6 +338,8 @@
       <item itemvalue="Spring Boot.ServiceBApplication" />
       <item itemvalue="Spring Boot.WebBApplication" />
       <item itemvalue="Spring Boot.MysqlMybatisBaseApplication" />
+      <item itemvalue="Spring Boot.OauthApplication" />
+      <item itemvalue="Spring Boot.MonitorApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -484,7 +360,7 @@
       <workItem from="1571010984116" duration="3534000" />
       <workItem from="1571025507645" duration="3661000" />
       <workItem from="1571042150396" duration="3549000" />
-      <workItem from="1571053484439" duration="9301000" />
+      <workItem from="1571053484439" duration="10840000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1571014324038</created>
@@ -493,17 +369,30 @@
       <option name="project" value="LOCAL" />
       <updated>1571014324038</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="优化架构">
+      <created>1571063671924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571063671924</updated>
+    </task>
+    <task id="LOCAL-00003" summary="完善SpringCloud架构">
+      <created>1571064866081</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571064866082</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32246000" />
+    <option name="totallyTimeSpent" value="33785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2813258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2813258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -519,9 +408,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4995958" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.42451155" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.78507996" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -578,53 +467,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="优化架构" />
+    <MESSAGE value="完善SpringCloud架构" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善SpringCloud架构" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/rest/AToBDataRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/java/com/jamie/api/a/service/AToBDataApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/api/AToBFallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/api/AToBApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jamie-service/data-a/web-a/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1013,12 +864,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/config/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/config/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/oauth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/monitor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

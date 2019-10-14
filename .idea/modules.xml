@@ -14,7 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud/feign/feign.iml" filepath="$PROJECT_DIR$/springcloud/feign/feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/jamie-service.iml" filepath="$PROJECT_DIR$/jamie-service/jamie-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie_cloud.iml" filepath="$PROJECT_DIR$/jamie_cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/monitor/monitor.iml" filepath="$PROJECT_DIR$/springcloud/monitor/monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/mybatis-mysql-base.iml" filepath="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/mybatis-mysql-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/oauth/oauth.iml" filepath="$PROJECT_DIR$/springcloud/oauth/oauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/common/redis/redis.iml" filepath="$PROJECT_DIR$/jamie-service/common/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-a/service-a/service-a.iml" filepath="$PROJECT_DIR$/jamie-service/data-a/service-a/service-a.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-b/service-b/service-b.iml" filepath="$PROJECT_DIR$/jamie-service/data-b/service-b/service-b.iml" />
