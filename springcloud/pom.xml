@@ -24,6 +24,8 @@
         <module>config</module>
         <module>zuul</module>
         <module>feign</module>
+        <module>oauth</module>
+        <module>monitor</module>
     </modules>
 
 </project>
