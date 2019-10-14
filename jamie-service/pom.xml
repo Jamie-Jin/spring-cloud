@@ -22,6 +22,7 @@
     <modules>
         <module>common</module>
         <module>data-a</module>
+        <module>data-b</module>
     </modules>
 
 </project>

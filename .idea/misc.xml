@@ -20,10 +20,14 @@
         <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-a/web-a/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud/feign/pom.xml" />
+        <option value="$PROJECT_DIR$/jamie-service/data-b/pom.xml" />
+        <option value="$PROJECT_DIR$/jamie-service/data-b/api-b/pom.xml" />
+        <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml" />
+        <option value="$PROJECT_DIR$/jamie-service/data-b/web-b/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

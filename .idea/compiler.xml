@@ -6,26 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="redis" />
-        <module name="zuul" />
-        <module name="common-util" />
-        <module name="service-a" />
-        <module name="mybatis-base" />
-        <module name="config" />
-        <module name="common-config" />
-        <module name="eureka" />
         <module name="web-a" />
+        <module name="service-b" />
+        <module name="service-a" />
+        <module name="redis" />
+        <module name="common-util" />
+        <module name="web-b" />
+        <module name="mybatis-base" />
+        <module name="zuul" />
+        <module name="common-config" />
+        <module name="api-b" />
         <module name="api-a" />
+        <module name="eureka" />
+        <module name="config" />
         <module name="feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-a" target="1.8" />
+      <module name="api-b" target="1.8" />
       <module name="common" target="1.8" />
       <module name="common-config" target="1.8" />
       <module name="common-util" target="1.8" />
       <module name="config" target="1.8" />
       <module name="data-a" target="1.8" />
+      <module name="data-b" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="feigin" target="1.8" />
       <module name="feign" target="1.8" />
@@ -34,20 +39,24 @@
       <module name="mybatis-base" target="1.8" />
       <module name="redis" target="1.8" />
       <module name="service-a" target="1.8" />
+      <module name="service-b" target="1.8" />
       <module name="springcloud" target="1.8" />
       <module name="util" target="1.8" />
       <module name="web-a" target="1.8" />
+      <module name="web-b" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-a" options="-parameters" />
+      <module name="api-b" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="common-config" options="-parameters" />
       <module name="common-util" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="data-a" options="" />
+      <module name="data-b" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="feigin" options="-parameters" />
       <module name="feign" options="-parameters" />
@@ -56,9 +65,11 @@
       <module name="mybatis-base" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="service-a" options="-parameters" />
+      <module name="service-b" options="-parameters" />
       <module name="springcloud" options="-parameters" />
       <module name="util" options="-parameters" />
       <module name="web-a" options="-parameters" />
+      <module name="web-b" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>

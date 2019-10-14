@@ -5,7 +5,7 @@ import com.jamie.feign.config.FeignConfig;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 
-@FeignClient(value = "service-a", url = "http://localhost:1001" ,configuration = FeignConfig.class)
+@FeignClient(value = "service-a", url = "${service.a}", configuration = FeignConfig.class)
 public interface ADataApi {
 
     @PostMapping(Urls.test)
