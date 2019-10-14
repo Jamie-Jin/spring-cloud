@@ -20,6 +20,7 @@
         <module>common-util</module>
         <module>redis</module>
         <module>common-config</module>
+        <module>mybatis-mysql-base</module>
     </modules>
 
 </project>

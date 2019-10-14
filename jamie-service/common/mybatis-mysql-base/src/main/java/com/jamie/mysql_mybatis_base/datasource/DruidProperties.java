@@ -1,17 +1,29 @@
-package com.jamie.servicea.config;
+package com.jamie.mysql_mybatis_base.datasource;
 
 import lombok.Getter;
+import lombok.Setter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * 获取配置中心中的Druid配置
- */
 @Configuration
 @RefreshScope
 @Getter
+@Setter
 public class DruidProperties {
+
+    @Value("${spring.datasource.druid.url}")
+    private String url;
+
+    @Value("${spring.datasource.druid.username}")
+    private String userName;
+
+    @Value("${spring.datasource.druid.password}")
+    private String password;
+
+    @Value("${spring.datasource.druid.driver-class-name}")
+    private String driverClassName;
+
     @Value("${spring.datasource.druid.initial-size}")
     private Integer initialSize;
 
@@ -44,4 +56,5 @@ public class DruidProperties {
 
     @Value("${spring.datasource.druid.min-evictable-idle-time-millis}")
     private Integer minEvictableIdleTimeMillis;
+
 }

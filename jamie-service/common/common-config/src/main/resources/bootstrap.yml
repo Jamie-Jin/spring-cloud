@@ -11,4 +11,3 @@ eureka:
 service:
   a: http://localhost:1001
   b: http://localhost:1002
-

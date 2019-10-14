@@ -1,4 +1,5 @@
-package com.jamie.servicea.config;
+package com.jamie.mybatis.base.datasource;
+
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.apache.ibatis.logging.stdout.StdOutImpl;
@@ -14,12 +15,10 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import javax.sql.DataSource;
 
 @Configuration
-public class JamieDataSourceConfig {
-    @Autowired
-    private DruidProperties druid;
+public class DataSourceConfig {
 
     @Autowired
-    private MySqlProperties mysql;
+    private DruidProperties druid;
 
     @Autowired
     private MyBatisProperties mybatis;
@@ -33,10 +32,10 @@ public class JamieDataSourceConfig {
     @RefreshScope
     public DataSource dataSource(){
         DruidDataSource dataSource = new DruidDataSource();
-        dataSource.setUrl(mysql.getUrl());
-        dataSource.setUsername(mysql.getUsername());
-        dataSource.setPassword(mysql.getPassword());
-        dataSource.setDriverClassName(mysql.getDriverClassName());
+        dataSource.setUrl(druid.getUrl());
+        dataSource.setUsername(druid.getUserName());
+        dataSource.setPassword(druid.getPassword());
+        dataSource.setDriverClassName(druid.getDriverClassName());
 
         dataSource.setInitialSize(druid.getInitialSize());
         dataSource.setMaxActive(druid.getMaxActive());
@@ -60,6 +59,7 @@ public class JamieDataSourceConfig {
      * @throws Exception
      */
     @Bean
+    @RefreshScope
     public SqlSessionFactory sqlSessionFactory(DataSource dataSource) throws Exception{
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
 

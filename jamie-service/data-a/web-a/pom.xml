@@ -27,6 +27,11 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.jamie</groupId>
             <artifactId>api-a</artifactId>
             <version>0.0.1-SNAPSHOT</version>

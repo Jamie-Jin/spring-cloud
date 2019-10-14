@@ -6,6 +6,9 @@ spring:
     name: eureka
 
 eureka:
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 30000
   instance:
     prefer-ip-address: true
     hostname: 127.0.0.1

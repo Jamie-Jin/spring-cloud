@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 @FeignClient(value = "service-b", url = "${service.b}", configuration = FeignConfig.class)
 public interface BDataApi {
 
-    @PostMapping(Urls.test)
-    TestEntity getTest();
+    @PostMapping(Urls.getTestByB)
+    TestEntity getTestByB();
 
 }

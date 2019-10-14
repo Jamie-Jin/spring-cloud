@@ -11,15 +11,15 @@
         <module name="service-a" />
         <module name="redis" />
         <module name="common-util" />
-        <module name="web-b" />
-        <module name="mybatis-base" />
+        <module name="feign" />
         <module name="zuul" />
+        <module name="mybatis-mysql-base" />
         <module name="common-config" />
         <module name="api-b" />
         <module name="api-a" />
         <module name="eureka" />
         <module name="config" />
-        <module name="feign" />
+        <module name="web-b" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +37,7 @@
       <module name="jamie-service" target="1.8" />
       <module name="jamie_cloud" target="1.8" />
       <module name="mybatis-base" target="1.8" />
+      <module name="mybatis-mysql-base" target="1.8" />
       <module name="redis" target="1.8" />
       <module name="service-a" target="1.8" />
       <module name="service-b" target="1.8" />
@@ -63,6 +64,7 @@
       <module name="jamie-service" options="-parameters" />
       <module name="jamie_cloud" options="-parameters" />
       <module name="mybatis-base" options="-parameters" />
+      <module name="mybatis-mysql-base" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="service-a" options="-parameters" />
       <module name="service-b" options="-parameters" />

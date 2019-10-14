@@ -6,8 +6,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 @SpringBootApplication
-@EnableDiscoveryClient
-@EnableZuulProxy
+@EnableDiscoveryClient  //作为微服务被发现
+@EnableZuulProxy        //开启Zuul网关
 public class ZuulApplication {
 
     public static void main(String[] args) {

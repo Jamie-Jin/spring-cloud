@@ -1,3 +1,7 @@
 #server:
 #  port: 8060
+#zuul:
+#  routes:
+#    web-a: /a/**
+#    web-b: /b/**
 #

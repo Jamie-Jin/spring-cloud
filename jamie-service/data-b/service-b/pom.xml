@@ -60,6 +60,12 @@
             <artifactId>druid-spring-boot-starter</artifactId>
         </dependency>
 
+        <!-- 服务降级（熔断）必须用此依赖 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>com.jamie</groupId>
             <artifactId>api-b</artifactId>
@@ -80,7 +86,13 @@
 
         <dependency>
             <groupId>com.jamie</groupId>
-            <artifactId>mybatis-base</artifactId>
+            <artifactId>mysql-mybatis-base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jamie</groupId>
+            <artifactId>api-a</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

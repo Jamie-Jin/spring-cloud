@@ -1,4 +1,4 @@
-package com.jamie.servicea.config;
+package com.jamie.mybatis.base.datasource;
 
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;
