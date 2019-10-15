@@ -21,6 +21,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
@@ -69,20 +74,20 @@
         <!-- 公用Dao -->
         <dependency>
             <groupId>com.jamie</groupId>
-            <artifactId>mysql-mybatis-base</artifactId>
+            <artifactId>db-mybatis-base</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <!-- 公用bootstrap.yml配置 -->
         <dependency>
             <groupId>com.jamie</groupId>
-            <artifactId>common-config</artifactId>
+            <artifactId>config-base</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>com.jamie</groupId>
-            <artifactId>common-util</artifactId>
+            <artifactId>util-base</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

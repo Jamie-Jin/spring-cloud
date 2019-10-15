@@ -9,19 +9,20 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jamie-service</artifactId>
+    <artifactId>common-bean</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>jamie-service</name>
+    <name>common-bean</name>
     <packaging>pom</packaging>
-    <description>提供服务模块</description>
+    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
     <modules>
-        <module>data-a</module>
-        <module>data-b</module>
+        <module>config-base</module>
+        <module>util-base</module>
+        <module>db-mybatis-base</module>
     </modules>
 
 </project>

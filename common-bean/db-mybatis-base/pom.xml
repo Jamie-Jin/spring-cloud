@@ -4,41 +4,45 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>springcloud</artifactId>
+        <artifactId>common-bean</artifactId>
         <groupId>com.jamie</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>zuul</artifactId>
+    <artifactId>db-mybatis-base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>zuul</name>
+    <name>db-mybatis-base</name>
     <packaging>jar</packaging>
-    <description>Zuul网关</description>
+    <description>数据源与MyBatis配置模块</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
+        <!-- 阿里巴巴数据库连接池 -->
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.jamie</groupId>
-            <artifactId>config-base</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
         </dependency>
 
+        <!-- 消息总线依赖，用于通知微服务模块进行配置刷新 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-bus</artifactId>
+        </dependency>
+
+        <!-- 接收配置中心的刷新请求 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
+        </dependency>
     </dependencies>
+
 
 </project>

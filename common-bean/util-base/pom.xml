@@ -4,24 +4,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>cloud</artifactId>
+        <artifactId>common-bean</artifactId>
         <groupId>com.jamie</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jamie-service</artifactId>
+    <artifactId>util-base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>jamie-service</name>
-    <packaging>pom</packaging>
-    <description>提供服务模块</description>
+    <name>util-base</name>
+    <packaging>jar</packaging>
+    <description>公用工具模块</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
-    <modules>
-        <module>data-a</module>
-        <module>data-b</module>
-    </modules>
 
 </project>

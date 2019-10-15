@@ -1,7 +1,7 @@
 package com.jamie.servicea.dao;
 
 import com.jamie.api.a.entity.TestEntity;
-import com.jamie.mysql_mybatis_base.mybatis_dao.BaseDao;
+import com.jamie.db_mybatis_base.dao.BaseDao;
 import org.springframework.stereotype.Repository;
 
 @Repository

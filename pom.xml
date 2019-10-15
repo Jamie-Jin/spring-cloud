@@ -27,6 +27,7 @@
     <modules>
         <module>springcloud</module>
         <module>jamie-service</module>
+        <module>common-bean</module>
     </modules>
 
     <dependencies>

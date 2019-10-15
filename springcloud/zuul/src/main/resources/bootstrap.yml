@@ -1,23 +1,26 @@
+#spring:
+#  application:
+#    name: zuul
+#  cloud:
+#    config:
+#      discovery:
+#        service-id: config
+#        enabled: true
+#      fail-fast: true
+#      retry:
+#        initial-interval: 2000
+#        max-interval: 10000
+#        multiplier: 2
+#        max-attempts: 10
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka
 spring:
   application:
     name: zuul
-  cloud:
-    config:
-      discovery:
-        service-id: config
-        enabled: true
-      fail-fast: true
-      retry:
-        initial-interval: 2000
-        max-interval: 10000
-        multiplier: 2
-        max-attempts: 10
-eureka:
-  instance:
-    prefer-ip-address: true
-    instance-id: ${spring.cloud.client.ip-address}:${server.port}
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:8761/eureka

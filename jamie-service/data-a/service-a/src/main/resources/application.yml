@@ -4,14 +4,19 @@ server:
 spring:
   application:
     name: service-a
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: config
-      fail-fast: true
-      retry:
-        initial-interval: 2000
-        max-interval: 10000
-        multiplier: 2
-        max-attempts: 10
+
+#spring:
+#  application:
+#    name: service-a
+#  cloud:
+#    config:
+#      discovery:
+#        enabled: true
+#        service-id: config
+#      fail-fast: true
+#      retry:
+#        initial-interval: 2000
+#        max-interval: 10000
+#        multiplier: 2
+#        max-attempts: 10
+
