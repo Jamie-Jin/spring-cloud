@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/common-bean" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-bean/config-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-bean/db-mybatis-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-bean/mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-bean/redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-bean/util-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jamie-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jamie-service/data-a" charset="UTF-8" />
@@ -23,7 +25,5 @@
     <file url="file://$PROJECT_DIR$/springcloud/oauth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/zuul/service-zuul" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springcloud/zuul1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springcloud/zuul2" charset="UTF-8" />
   </component>
 </project>

@@ -6,26 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="web-a" />
+        <module name="api-b" />
         <module name="service-b" />
         <module name="service-a" />
         <module name="oauth" />
-        <module name="feign" />
+        <module name="redis" />
         <module name="monitor" />
+        <module name="feign" />
         <module name="service-zuul" />
-        <module name="api-b" />
+        <module name="mq" />
+        <module name="web-b" />
         <module name="api-a" />
         <module name="eureka" />
         <module name="config" />
-        <module name="config-base" />
-        <module name="web-b" />
-        <module name="db-mybatis-base" />
+        <module name="web-a" />
         <module name="util-base" />
+        <module name="db-mybatis-base" />
+        <module name="config-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-a" target="1.8" />
       <module name="api-b" target="1.8" />
+      <module name="api-redis" target="1.8" />
       <module name="common" target="1.8" />
       <module name="common-bean" target="1.8" />
       <module name="common-config" target="1.8" />
@@ -43,12 +46,14 @@
       <module name="jamie_cloud" target="1.8" />
       <module name="login" target="1.8" />
       <module name="monitor" target="1.8" />
+      <module name="mq" target="1.8" />
       <module name="mybatis-base" target="1.8" />
       <module name="mybatis-mysql-base" target="1.8" />
       <module name="oauth" target="1.8" />
       <module name="redis" target="1.8" />
       <module name="service-a" target="1.8" />
       <module name="service-b" target="1.8" />
+      <module name="service-redis" target="1.8" />
       <module name="service-zuul" target="1.8" />
       <module name="springcloud" target="1.8" />
       <module name="util" target="1.8" />
@@ -63,6 +68,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-a" options="-parameters" />
       <module name="api-b" options="-parameters" />
+      <module name="api-redis" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="common-bean" options="-parameters" />
       <module name="common-config" options="-parameters" />
@@ -80,12 +86,14 @@
       <module name="jamie_cloud" options="-parameters" />
       <module name="login" options="-parameters" />
       <module name="monitor" options="-parameters" />
+      <module name="mq" options="-parameters" />
       <module name="mybatis-base" options="-parameters" />
       <module name="mybatis-mysql-base" options="-parameters" />
       <module name="oauth" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="service-a" options="-parameters" />
       <module name="service-b" options="-parameters" />
+      <module name="service-redis" options="-parameters" />
       <module name="service-zuul" options="-parameters" />
       <module name="springcloud" options="-parameters" />
       <module name="util" options="-parameters" />

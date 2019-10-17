@@ -104,11 +104,33 @@
                 <version>2.3.6.RELEASE</version>
             </dependency>
 
+            <!-- RabbitMQ -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
                 <version>2.1.4.RELEASE</version>
             </dependency>
+
+            <!-- Redis -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>2.1.9.RELEASE</version>
+            </dependency>
+
+            <!-- Redis键值对序列化时要用到 start -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>2.9.10</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>2.9.10</version>
+            </dependency>
+            <!-- Redis键值对序列化时要用到 end -->
 
         </dependencies>
 

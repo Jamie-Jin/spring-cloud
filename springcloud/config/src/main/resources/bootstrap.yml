@@ -11,10 +11,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Jamie-Jin/config-center.git
+          uri: https://github.com/Jamie-Jin/spring-cloud.git
           username: Jamie-Jin
           password: loveyou19940725
-          search-paths: config-repo
+          search-paths: springcloud/config-repo
   rabbitmq:
     host: 127.0.0.1
     port: 5672

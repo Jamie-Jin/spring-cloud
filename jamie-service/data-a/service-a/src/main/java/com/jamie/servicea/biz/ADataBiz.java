@@ -1,6 +1,7 @@
 package com.jamie.servicea.biz;
 
 import com.jamie.api.a.entity.TestEntity;
+import com.jamie.redis.api.RedisApi;
 import com.jamie.servicea.dao.ADataDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

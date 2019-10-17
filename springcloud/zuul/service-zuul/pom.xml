@@ -97,6 +97,13 @@
             <artifactId>config-base</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
+        <!-- Redis模块 -->
+        <dependency>
+            <groupId>com.jamie</groupId>
+            <artifactId>redis</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 

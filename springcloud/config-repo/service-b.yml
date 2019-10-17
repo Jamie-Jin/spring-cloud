@@ -17,9 +17,15 @@ spring:
       test-while-idle: true
       time-between-eviction-runs-millis: 90000
       min-evictable-idle-time-millis: 30000
+
 mybatis:
   mapper-locations: classpath:mybatis_mapper/*.xml
   configuration:
     use-generated-keys: true
     map-underscore-to-camel-case: true
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

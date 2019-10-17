@@ -23,6 +23,8 @@
         <module>config-base</module>
         <module>util-base</module>
         <module>db-mybatis-base</module>
+        <module>redis</module>
+        <module>mq</module>
     </modules>
 
 </project>

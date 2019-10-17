@@ -2,6 +2,7 @@
 service:
   a: http://localhost:1001
   b: http://localhost:1002
+  redis: http://localhost:1003
 
 # registry center
 eureka:
