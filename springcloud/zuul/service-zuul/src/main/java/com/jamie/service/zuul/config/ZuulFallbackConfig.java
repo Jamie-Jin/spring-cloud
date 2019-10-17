@@ -1,4 +1,4 @@
-package com.jamie.zuul.fallback;
+package com.jamie.service.zuul.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,29 +14,29 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * Zuul网关服务降级类
+ * Zuul网关降级服务
  */
 @Component
-public class ZuulFallback implements FallbackProvider {
-    private static final Logger logger = LoggerFactory.getLogger(ZuulFallback.class);
+public class ZuulFallbackConfig implements FallbackProvider {
+    private static final Logger logger = LoggerFactory.getLogger(ZuulFallbackConfig.class);
 
-    // 指定要降级的服务名称
     @Override
     public String getRoute() {
+        // 对所有微服务都进行服务降级（仅当微服务不可用情况下）
         return "*";
     }
 
     @Override
     public ClientHttpResponse fallbackResponse(String route, Throwable cause) {
-        logger.info("route=" + route);
 
         return new ClientHttpResponse() {
+            // 返回服务不可达状态码：503
             @Override
             public HttpStatus getStatusCode() throws IOException {
-                // 返回503,服务不可用
                 return HttpStatus.SERVICE_UNAVAILABLE;
             }
 
+            // 服务不可达503
             @Override
             public int getRawStatusCode() throws IOException {
                 return HttpStatus.SERVICE_UNAVAILABLE.value();
@@ -54,7 +54,7 @@ public class ZuulFallback implements FallbackProvider {
 
             @Override
             public InputStream getBody() throws IOException {
-                String msg = "fallback:" + route;
+                String msg = "Zuul网关降级服务：" + route + "不可用";
 
                 return new ByteArrayInputStream(msg.getBytes());
             }

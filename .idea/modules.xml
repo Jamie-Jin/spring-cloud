@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud/oauth/oauth.iml" filepath="$PROJECT_DIR$/springcloud/oauth/oauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-a/service-a/service-a.iml" filepath="$PROJECT_DIR$/jamie-service/data-a/service-a/service-a.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-b/service-b/service-b.iml" filepath="$PROJECT_DIR$/jamie-service/data-b/service-b/service-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/springcloud/zuul/service-zuul/service-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/springcloud.iml" filepath="$PROJECT_DIR$/springcloud/springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-bean/util-base/util-base.iml" filepath="$PROJECT_DIR$/common-bean/util-base/util-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-a/web-a/web-a.iml" filepath="$PROJECT_DIR$/jamie-service/data-a/web-a/web-a.iml" />

@@ -1,17 +1,17 @@
-package com.jamie.zuul;
+package com.jamie.service.zuul;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
-@SpringBootApplication
-@EnableDiscoveryClient  //作为微服务被发现
+@SpringBootApplication(scanBasePackages = "com.jamie")
+@EnableDiscoveryClient  //开启微服务发现机制
 @EnableZuulProxy        //开启Zuul网关
-public class ZuulApplication {
+public class ServiceZuulApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ZuulApplication.class, args);
+        SpringApplication.run(ServiceZuulApplication.class, args);
     }
 
 }

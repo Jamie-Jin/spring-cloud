@@ -13,7 +13,7 @@ public class BController {
     @Autowired
     private BDataApi bDataApi;
 
-    @RequestMapping("/test")
+    @RequestMapping("/getTestByB")
     public TestEntity getTest(){
         return bDataApi.getTestByB();
     }

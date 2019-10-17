@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: config
+  security:
+    user:
+      name: jamie
+      password: ${CONFIG_PASSWORD:123456}
   cloud:
     config:
       server:
@@ -31,4 +35,4 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://jamie:${EUREKA_PASSWORD:123456}@localhost:8761/eureka

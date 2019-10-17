@@ -22,8 +22,8 @@
     <modules>
         <module>eureka</module>
         <module>config</module>
-        <module>zuul</module>
         <module>feign</module>
+        <module>zuul</module>
         <module>oauth</module>
         <module>monitor</module>
     </modules>

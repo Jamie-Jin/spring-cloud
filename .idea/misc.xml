@@ -4,10 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud/config/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud/zuul/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/common/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/common/mybatis-base/pom.xml" />
@@ -31,6 +29,8 @@
         <option value="$PROJECT_DIR$/common-bean/config-base/pom.xml" />
         <option value="$PROJECT_DIR$/common-bean/util-base/pom.xml" />
         <option value="$PROJECT_DIR$/common-bean/db-mybatis-base/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/zuul/service-zuul/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
