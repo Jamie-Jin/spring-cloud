@@ -56,6 +56,11 @@
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
         <!-- oauth2, 使用UserDetailsService接口要此依赖 -->
         <dependency>
             <groupId>org.springframework.security.oauth</groupId>
@@ -86,6 +91,19 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- 共享Session -->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.session</groupId>-->
+<!--            <artifactId>spring-session</artifactId>-->
+<!--        </dependency>-->
+
+        <!-- 此处为大坑，要使用Spring Security+Redis管理Session时，要引入以下依赖，不要引入spring-session -->
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session-data-redis</artifactId>
+        </dependency>
+
+
         <dependency>
             <groupId>com.jamie</groupId>
             <artifactId>db-mybatis-base</artifactId>
@@ -98,12 +116,18 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-        <!-- Redis模块 -->
+<!--        <dependency>-->
+<!--            <groupId>redis.clients</groupId>-->
+<!--            <artifactId>jedis</artifactId>-->
+<!--        </dependency>-->
+
         <dependency>
             <groupId>com.jamie</groupId>
             <artifactId>redis</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
+
     </dependencies>
 
 

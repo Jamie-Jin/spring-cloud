@@ -1,5 +1,8 @@
 server:
   port: 8060
+  servlet:
+    session:
+      timeout: 60
 spring:
   application:
     name: zuul
