@@ -24,7 +24,7 @@
         <module>util-base</module>
         <module>db-mybatis-base</module>
         <module>redis</module>
-        <module>mq</module>
+        <module>rabbit-mq</module>
     </modules>
 
 </project>

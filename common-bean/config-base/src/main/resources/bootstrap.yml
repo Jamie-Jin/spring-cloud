@@ -3,6 +3,11 @@ service:
   a: http://localhost:1001
   b: http://localhost:1002
 
+# RabbitMQ Queue and Exchange
+rabbitmq:
+  queue: rabbit_queue
+  exchange: rabbit_exchange
+
 # registry center
 eureka:
   instance:

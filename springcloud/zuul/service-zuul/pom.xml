@@ -20,23 +20,25 @@
     </properties>
 
     <dependencies>
+        <!-- SpringBoot单元测试 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- 用于通过配置中心刷新配置 start -->
         <!-- 消息总线 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-bus</artifactId>
         </dependency>
 
-        <!-- 配置中心 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
+            <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
         </dependency>
-
-        <!-- 微服务发现机制 -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
+        <!-- 用于通过配置中心刷新配置 end -->
 
         <!-- Zuul网关 -->
         <dependency>
@@ -56,9 +58,17 @@
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
+        <!-- Redis模块 -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
+            <groupId>com.jamie</groupId>
+            <artifactId>redis</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <!-- 此处为大坑，要使用Spring Security+Redis管理Session时，要引入以下依赖，不要引入spring-session -->
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session-data-redis</artifactId>
         </dependency>
 
         <!-- oauth2, 使用UserDetailsService接口要此依赖 -->
@@ -78,55 +88,19 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- 用于通过配置中心刷新配置 start -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
-        </dependency>
-        <!-- 用于通过配置中心刷新配置 end -->
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <!-- 共享Session -->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.session</groupId>-->
-<!--            <artifactId>spring-session</artifactId>-->
-<!--        </dependency>-->
-
-        <!-- 此处为大坑，要使用Spring Security+Redis管理Session时，要引入以下依赖，不要引入spring-session -->
-        <dependency>
-            <groupId>org.springframework.session</groupId>
-            <artifactId>spring-session-data-redis</artifactId>
-        </dependency>
-
-
+        <!-- 公共Dao以及数据源配置 -->
         <dependency>
             <groupId>com.jamie</groupId>
             <artifactId>db-mybatis-base</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
+        <!-- 公共配置模块 内含微服务发现机制依赖，配置中心依赖 -->
         <dependency>
             <groupId>com.jamie</groupId>
             <artifactId>config-base</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-
-<!--        <dependency>-->
-<!--            <groupId>redis.clients</groupId>-->
-<!--            <artifactId>jedis</artifactId>-->
-<!--        </dependency>-->
-
-        <dependency>
-            <groupId>com.jamie</groupId>
-            <artifactId>redis</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
 
     </dependencies>
 

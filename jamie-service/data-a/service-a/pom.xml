@@ -20,22 +20,20 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-
+        <!-- SpringBoot -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
+        <!-- SpringBoot单元测试 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
 
+        <!-- 阿里巴巴数据库连接池 -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid-spring-boot-starter</artifactId>
@@ -47,18 +45,14 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-        <!-- 使用配置中心 -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-
         <!-- 用于通过配置中心刷新配置 start -->
+        <!-- 消息总线 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-bus</artifactId>
         </dependency>
 
+        <!-- rabbitmq,通过配置中心刷新配置 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
@@ -78,7 +72,7 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-        <!-- 公用bootstrap.yml配置 -->
+        <!-- 公共配置模块 内含微服务发现机制依赖，配置中心依赖 -->
         <dependency>
             <groupId>com.jamie</groupId>
             <artifactId>config-base</artifactId>
@@ -103,15 +97,17 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
+        <!-- Redis模块 -->
         <dependency>
             <groupId>com.jamie</groupId>
             <artifactId>redis</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
+        <!-- RabbitMQ模块 -->
         <dependency>
             <groupId>com.jamie</groupId>
-            <artifactId>redis</artifactId>
+            <artifactId>rabbit-mq</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

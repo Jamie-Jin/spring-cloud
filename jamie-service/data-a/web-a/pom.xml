@@ -21,11 +21,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
@@ -42,6 +37,7 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
+        <!-- 公共配置模块 内含微服务发现机制依赖，配置中心依赖 -->
         <dependency>
             <groupId>com.jamie</groupId>
             <artifactId>config-base</artifactId>

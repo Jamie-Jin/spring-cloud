@@ -4,16 +4,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>data-b</artifactId>
+        <artifactId>common-bean</artifactId>
         <groupId>com.jamie</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>web-b</artifactId>
+    <artifactId>rabbit-mq</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>web-b</name>
+    <name>rabbit-mq</name>
     <packaging>jar</packaging>
-    <description>数据模块B-web层</description>
+    <description>RabbitMQ模块</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -28,12 +28,42 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+        </dependency>
+
+        <!-- RabbitMQ -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+
+        <!-- 微服务发现机制 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <!-- 使用配置中心 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+
+        <!-- 用于通过配置中心刷新配置 start -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-bus</artifactId>
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
+        </dependency>
+        <!-- 用于通过配置中心刷新配置 end -->
+
+        <!-- 公共配置模块 -->
+        <dependency>
             <groupId>com.jamie</groupId>
-            <artifactId>api-b</artifactId>
+            <artifactId>config-base</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
@@ -43,18 +73,6 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-        <!-- 公共配置模块 内含微服务发现机制依赖，配置中心依赖 -->
-        <dependency>
-            <groupId>com.jamie</groupId>
-            <artifactId>config-base</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.jamie</groupId>
-            <artifactId>redis</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 
 </project>

@@ -23,8 +23,6 @@
         <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-b/web-b/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/common/mybatis-mysql-base/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud/oauth/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud/monitor/pom.xml" />
         <option value="$PROJECT_DIR$/common-bean/pom.xml" />
         <option value="$PROJECT_DIR$/common-bean/config-base/pom.xml" />
         <option value="$PROJECT_DIR$/common-bean/util-base/pom.xml" />
@@ -34,7 +32,7 @@
         <option value="$PROJECT_DIR$/common-bean/redis/api-redis/pom.xml" />
         <option value="$PROJECT_DIR$/common-bean/redis/service-redis/pom.xml" />
         <option value="$PROJECT_DIR$/common-bean/redis/pom.xml" />
-        <option value="$PROJECT_DIR$/common-bean/mq/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
