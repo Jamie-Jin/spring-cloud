@@ -17,6 +17,16 @@ spring:
       test-while-idle: true
       time-between-eviction-runs-millis: 90000
       min-evictable-idle-time-millis: 30000
+  rabbitmq:
+    virtual-host: /rabbit_host
+    addresses: localhost:5672
+    username: guest
+    password: guest
+    connection-timeout: 15000
+    publisher-returns: true
+    publisher-confirms: true
+    template:
+      mandatory: true
 
 mybatis:
   mapper-locations: classpath:mybatis_mapper/*.xml
