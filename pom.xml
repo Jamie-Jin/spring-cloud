@@ -38,6 +38,12 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- 对象与字符串转换工具 -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>

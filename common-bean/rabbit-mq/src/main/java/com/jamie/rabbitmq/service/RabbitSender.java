@@ -1,5 +1,7 @@
 package com.jamie.rabbitmq.service;
 
+import com.google.gson.Gson;
+import com.jamie.rabbitmq.vo.NotifyVo;
 import com.jamie.utilbase.util.GUID;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -47,17 +49,23 @@ public class RabbitSender {
         }
     };
 
-    public void send(Object message, Map<String, Object> properties) throws Exception {
-        MessageHeaders messageHeaders = new MessageHeaders(properties);
-        org.springframework.messaging.Message msg = MessageBuilder.createMessage(message, messageHeaders);
+    // routingKey：消息路由key
+    public void send(Object message, String routingKey) throws Exception {
         rabbitTemplate.setConfirmCallback(confirmCallback);
         rabbitTemplate.setReturnCallback(returnCallback);
-        // 消息唯一标识
-        CorrelationData correlationData = new CorrelationData(GUID.getUUID());
 
-        logger.info("发送方发送消息：" + msg);
+        String uuid = GUID.getUUID();
+        NotifyVo notifyVo = new NotifyVo();
+        notifyVo.setNotifyId(uuid);
+        notifyVo.setNotifyTag(routingKey);
+        notifyVo.setBody(new Gson().toJson(message)); //将对象转换成Json字符串
+
+        // 消息唯一标识
+        CorrelationData correlationData = new CorrelationData(uuid);
+
+        logger.info("发送方发送消息：" + notifyVo);
 
         // routingKey：消费者唯一标识
-        rabbitTemplate.convertAndSend(exchange, "mq.A_TO_B", msg, correlationData);
+        rabbitTemplate.convertAndSend(exchange, routingKey, notifyVo, correlationData);
     }
 }
