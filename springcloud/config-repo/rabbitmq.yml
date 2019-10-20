@@ -1,3 +1,7 @@
+rabbitmq:
+  queue: rabbit_queue
+  exchange: rabbit_exchange
+
 spring:
   datasource:
     druid:
