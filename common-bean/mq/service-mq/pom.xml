@@ -4,40 +4,36 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>data-b</artifactId>
+        <artifactId>mq</artifactId>
         <groupId>com.jamie</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>service-b</artifactId>
+    <artifactId>service-mq</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>service-b</name>
+    <name>service-mq</name>
     <packaging>jar</packaging>
-    <description>数据模块B-服务层</description>
+    <description>RocketMQ服务层</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
-        <!-- SpringBoot -->
+        <!-- RabbitMQ -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
-        <!-- SpringBoot单元测试 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <!-- MySQL驱动 -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
         </dependency>
 
         <!-- 用于通过配置中心刷新配置 start -->
@@ -51,6 +47,13 @@
             <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
         </dependency>
         <!-- 用于通过配置中心刷新配置 end -->
+
+        <!-- MySQL驱动 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
 
         <!-- 阿里巴巴数据库连接池 -->
         <dependency>
@@ -66,14 +69,19 @@
 
         <dependency>
             <groupId>com.jamie</groupId>
-            <artifactId>api-b</artifactId>
+            <artifactId>db-mybatis-base</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-        <!-- 公共配置模块 内含微服务发现机制依赖，配置中心依赖 -->
         <dependency>
             <groupId>com.jamie</groupId>
             <artifactId>config-base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jamie</groupId>
+            <artifactId>api-mq</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
@@ -83,38 +91,15 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.jamie</groupId>
-            <artifactId>db-mybatis-base</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.jamie</groupId>
-            <artifactId>api-a</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-        <!-- RabbitMQ模块 -->
-        <dependency>
-            <groupId>com.jamie</groupId>
-            <artifactId>api-mq</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-        <!-- Redis模块 -->
-        <dependency>
-            <groupId>com.jamie</groupId>
-            <artifactId>redis</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.jamie</groupId>
-            <artifactId>api-a</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

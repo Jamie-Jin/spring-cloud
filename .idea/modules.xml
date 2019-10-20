@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-a/api-a/api-a.iml" filepath="$PROJECT_DIR$/jamie-service/data-a/api-a/api-a.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-b/api-b/api-b.iml" filepath="$PROJECT_DIR$/jamie-service/data-b/api-b/api-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-bean/mq/api-mq/api-mq.iml" filepath="$PROJECT_DIR$/common-bean/mq/api-mq/api-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-bean/common-bean.iml" filepath="$PROJECT_DIR$/common-bean/common-bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/config/config.iml" filepath="$PROJECT_DIR$/springcloud/config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-bean/config-base/config-base.iml" filepath="$PROJECT_DIR$/common-bean/config-base/config-base.iml" />
@@ -14,10 +15,11 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud/feign/feign.iml" filepath="$PROJECT_DIR$/springcloud/feign/feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/jamie-service.iml" filepath="$PROJECT_DIR$/jamie-service/jamie-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie_cloud.iml" filepath="$PROJECT_DIR$/jamie_cloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common-bean/rabbit-mq/rabbit-mq.iml" filepath="$PROJECT_DIR$/common-bean/rabbit-mq/rabbit-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-bean/mq/mq.iml" filepath="$PROJECT_DIR$/common-bean/mq/mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-bean/redis/redis.iml" filepath="$PROJECT_DIR$/common-bean/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-a/service-a/service-a.iml" filepath="$PROJECT_DIR$/jamie-service/data-a/service-a/service-a.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-b/service-b/service-b.iml" filepath="$PROJECT_DIR$/jamie-service/data-b/service-b/service-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-bean/mq/service-mq/service-mq.iml" filepath="$PROJECT_DIR$/common-bean/mq/service-mq/service-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/springcloud/zuul/service-zuul/service-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/springcloud.iml" filepath="$PROJECT_DIR$/springcloud/springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-bean/util-base/util-base.iml" filepath="$PROJECT_DIR$/common-bean/util-base/util-base.iml" />

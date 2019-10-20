@@ -1,16 +1,18 @@
 package com.jamie.servicea.biz;
 
+import com.google.gson.Gson;
 import com.jamie.api.a.entity.TestEntity;
 import com.jamie.api.a.vo.AVo;
-import com.jamie.rabbitmq.service.RabbitSender;
+import com.jamie.api.mq.service.MessageApi;
+import com.jamie.api.mq.vo.NotifyVo;
 import com.jamie.servicea.dao.ADataDao;
+import com.jamie.utilbase.util.GUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
 
 @Service
@@ -19,7 +21,7 @@ public class ADataBiz {
     private ADataDao aDataDao;
 
     @Autowired
-    private RabbitSender rabbitSender;
+    private MessageApi messageApi;
 
     public TestEntity getTest() {
         try {
@@ -35,7 +37,12 @@ public class ADataBiz {
             messageVo.setHobbies(hobbies);
             messageVo.setToday(new Date());
 
-            rabbitSender.send(messageVo, "mq.A_TO_B");
+            NotifyVo notifyVo = new NotifyVo();
+            notifyVo.setNotifyId(GUID.getUUID());   //消息唯一标识
+            notifyVo.setRoutingKey("mq.A_TO_B");    //消息路由Key
+            notifyVo.setBody(new Gson().toJson(messageVo));//消息内容
+
+            messageApi.sendMessage(notifyVo);
         } catch (Exception e){
             e.printStackTrace();
         }

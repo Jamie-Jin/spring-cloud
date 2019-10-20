@@ -2,21 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79df1285-d4dd-453f-b31c-b2ad7ef6196b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/vo/NotifyVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/java/com/jamie/api/a/vo/AVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jamie_rabbit_mq_0_0_1_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/api-mq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/entity/MessageEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/entity/MqConfigEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/service/MessageApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/service/Urls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/api-mq/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/mq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/service-mq/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/service-mq/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/service-mq/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/service-mq/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/service-mq/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/service-mq/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/ServiceMqApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/dao/MessageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/rest/MessageRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/resources/mybatis_mapper/MessageMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-bean/common-bean.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/common-bean.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/service/RabbitSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/service/RabbitSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/data-a.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-a/data-a.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/config-base/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/config-base/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/db-mybatis-base/src/main/java/com/jamie/db_mybatis_base/dao/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/db-mybatis-base/src/main/java/com/jamie/db_mybatis_base/dao/BaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/rabbit-mq/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/mq/api-mq/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/rabbit-mq/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/mq/api-mq/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/rabbit-mq/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/mq/api-mq/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/rabbit-mq/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/mq/api-mq/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/rabbit-mq/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/mq/api-mq/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/rabbit-mq/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/mq/api-mq/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/rabbit-mq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/mq/service-mq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/RabbitMqApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/config/RabbitmqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/config/RabbitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/service/RabbitSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/biz/MessageBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/vo/NotifyVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/vo/NotifyVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/resources/mq.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/rabbit-mq/src/test/java/com/jamie/rabbitmq/RabbitMqApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/mq/api-mq/src/test/java/com/jamie/api/mq/ApiMqApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/biz/ADataBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/biz/ADataBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-b/data-b.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-b/data-b.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/consume/RabbitConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/consume/RabbitConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/jamie-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/jamie-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie_cloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie_cloud.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud/springcloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/springcloud.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud/zuul/zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/zuul/zuul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/config-repo/service-rabbitmq.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/config-repo/service-rabbitmq.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,6 +93,8 @@
     <ignored path="$PROJECT_DIR$/common-bean/redis/service-redis/target/" />
     <ignored path="$PROJECT_DIR$/common-bean/mq/target/" />
     <ignored path="$PROJECT_DIR$/common-bean/rabbit-mq/target/" />
+    <ignored path="$PROJECT_DIR$/common-bean/mq/api-mq/target/" />
+    <ignored path="$PROJECT_DIR$/common-bean/mq/service-mq/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,10 +121,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/consume/RabbitConsumer.java">
+        <entry file="file://$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/biz/MessageBiz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+            <state relative-caret-position="377">
+              <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
+              <folding>
+                <element signature="e#2183#2184#0" expanded="true" />
+                <element signature="e#2248#2249#0" expanded="true" />
+                <element signature="e#2305#2306#0" expanded="true" />
+                <element signature="e#2360#2361#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/dao/MessageDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="46" column="71" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,24 +148,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jamie-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/common-bean/mq/service-mq/src/main/resources/mybatis_mapper/MessageMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/consume/RabbitConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/vo/NotifyVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+            <state relative-caret-position="121">
+              <caret line="35" column="72" lean-forward="true" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,34 +169,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/service/RabbitSender.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.1.10.RELEASE/spring-messaging-5.1.10.RELEASE.jar!/org/springframework/messaging/handler/invocation/InvocableHandlerMethod.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+            <state relative-caret-position="95">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/service/MessageApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/rest/MessageRest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/java/com/jamie/api/a/vo/AVo.java">
+        <entry file="file://$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/service/Urls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="25" column="85" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="96">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/biz/ADataBiz.java">
+        <entry file="file://$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/entity/MqConfigEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+            <state relative-caret-position="160">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -162,20 +227,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Mapper" />
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Mapper" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dr</find>
-      <find>myba</find>
-      <find>green</find>
-      <find>OutsideUrls.aToBTest</find>
       <find>eureka</find>
       <find>druid</find>
       <find>mybatis</find>
@@ -200,6 +261,12 @@
       <find>localhost:1001</find>
       <find>queue</find>
       <find>spring-boot-starter-data-redis</find>
+      <find>notifyTag</find>
+      <find>serverTimezone</find>
+      <find>successMessage</find>
+      <find>java.util.HashMap</find>
+      <find>now()</find>
+      <find>failMessage</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -208,57 +275,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common-bean/redis/api-redis/src/main/java/com/jamie/api/redis/ApiRedisApplication.java" />
-        <option value="$PROJECT_DIR$/common-bean/redis/api-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/common-bean/redis/api-redis/src/main/java/com/jamie/api/redis/RedisApi.java" />
-        <option value="$PROJECT_DIR$/common-bean/redis/service-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/common-bean/redis/service-redis/src/main/java/com/jamie/service/redis/ServiceRedisApplication.java" />
-        <option value="$PROJECT_DIR$/common-bean/redis/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/common-bean/redis/src/test/java/com/jamie/redis/api/RedisApiTest.java" />
-        <option value="$PROJECT_DIR$/common-bean/redis/src/main/java/com/jamie/redis/api/RedisApi.java" />
-        <option value="$PROJECT_DIR$/common-bean/redis/src/main/java/com/jamie/redis/service/RedisService.java" />
-        <option value="$PROJECT_DIR$/common-bean/mq/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud/config-repo/zuul.yml" />
-        <option value="$PROJECT_DIR$/springcloud/config/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/common-bean/mq/src/test/java/com/jamie/mq/MqApplicationTests.java" />
-        <option value="$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/config/SessionCacheConfig.java" />
-        <option value="$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/config/SessionConfig.java" />
-        <option value="$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/config/LoginConfig.java" />
-        <option value="$PROJECT_DIR$/common-bean/redis/src/main/java/com/jamie/redis/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/common-bean/pom.xml" />
-        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/src/test/java/com/jamie/rabbitmq/RabbitMqApplicationTests.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/rest/ADataRest.java" />
-        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/resources/mq.yml" />
-        <option value="$PROJECT_DIR$/common-bean/util-base/src/main/java/com/jamie/utilbase/util/GUID.java" />
-        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/RabbitMqApplication.java" />
-        <option value="$PROJECT_DIR$/springcloud/config-repo/service-a.yml" />
-        <option value="$PROJECT_DIR$/springcloud/config-repo/service-b.yml" />
-        <option value="$PROJECT_DIR$/common-bean/config-base/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/resources/mq.properties" />
         <option value="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/config/RabbitmqConfig.java" />
         <option value="$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/ServiceZuulApplication.java" />
-        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/common-bean/config-base/pom.xml" />
-        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-b/web-b/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-a/web-a/pom.xml" />
-        <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml" />
         <option value="$PROJECT_DIR$/common-bean/redis/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud/zuul/service-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/java/com/jamie/api/a/vo/MessageVo.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/java/com/jamie/api/a/vo/AVo.java" />
-        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/service/RabbitSender.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/biz/ADataBiz.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/consume/RabbitConsumer.java" />
         <option value="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/vo/NotifyVo.java" />
+        <option value="$PROJECT_DIR$/common-bean/db-mybatis-base/src/main/java/com/jamie/db_mybatis_base/dao/BaseDao.java" />
+        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/entity/MessageEntity.java" />
+        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/resources/mybatis_mapper/MessageMapper.xml" />
+        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/dao/MessageDao.java" />
+        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/service/RabbitSender.java" />
+        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/RabbitMqApplication.java" />
+        <option value="$PROJECT_DIR$/common-bean/mq/api-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/ApiMqApplication.java" />
+        <option value="$PROJECT_DIR$/common-bean/mq/api-mq/src/test/java/com/jamie/api/mq/ApiMqApplicationTests.java" />
+        <option value="$PROJECT_DIR$/common-bean/mq/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/ServiceMqApplication.java" />
+        <option value="$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/entity/MessageEntity.java" />
+        <option value="$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/vo/NotifyVo.java" />
+        <option value="$PROJECT_DIR$/common-bean/mq/service-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/config/RabbitConfig.java" />
+        <option value="$PROJECT_DIR$/springcloud/config-repo/rabbitmq.yml" />
+        <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml" />
+        <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml" />
+        <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/biz/ADataBiz.java" />
+        <option value="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/service/Urls.java" />
+        <option value="$PROJECT_DIR$/springcloud/config-repo/service-a.yml" />
+        <option value="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/dao/MessageDao.java" />
+        <option value="$PROJECT_DIR$/springcloud/config-repo/service-rabbitmq.yml" />
+        <option value="$PROJECT_DIR$/common-bean/config-base/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/entity/RabbitConfigEntity.java" />
+        <option value="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/biz/MessageBiz.java" />
+        <option value="$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/entity/MqConfigEntity.java" />
+        <option value="$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/service/MessageApi.java" />
+        <option value="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/rest/MessageRest.java" />
+        <option value="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/resources/mybatis_mapper/MessageMapper.xml" />
+        <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/consume/RabbitConsumer.java" />
       </list>
     </option>
   </component>
@@ -276,15 +343,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="949" />
-    <option name="width" value="980" />
-    <option name="height" value="1031" />
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,77 +364,75 @@
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jamie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="common-bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jamie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="data-b" type="462c0819:PsiDirectoryNode" />
+              <item name="common-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jamie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="data-b" type="462c0819:PsiDirectoryNode" />
-              <item name="service-b" type="462c0819:PsiDirectoryNode" />
+              <item name="common-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+              <item name="api-mq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jamie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="data-b" type="462c0819:PsiDirectoryNode" />
-              <item name="service-b" type="462c0819:PsiDirectoryNode" />
+              <item name="common-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+              <item name="api-mq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jamie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="data-b" type="462c0819:PsiDirectoryNode" />
-              <item name="service-b" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jamie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="data-b" type="462c0819:PsiDirectoryNode" />
-              <item name="service-b" type="462c0819:PsiDirectoryNode" />
+              <item name="common-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+              <item name="api-mq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jamie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="data-b" type="462c0819:PsiDirectoryNode" />
-              <item name="service-b" type="462c0819:PsiDirectoryNode" />
+              <item name="common-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+              <item name="api-mq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="b" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jamie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="data-b" type="462c0819:PsiDirectoryNode" />
-              <item name="service-b" type="462c0819:PsiDirectoryNode" />
+              <item name="common-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+              <item name="api-mq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="b" type="462c0819:PsiDirectoryNode" />
-              <item name="consume" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="common-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+              <item name="api-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,7 +445,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mq/maven_rabbit_mq" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common-bean/mq/service-mq" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -412,7 +479,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceBApplication">
     <configuration name="ATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="redis" />
       <extension name="coverage">
@@ -492,6 +559,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-mq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jamie.api.mq.ApiMqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jamie.config.ConfigApplication" />
@@ -555,6 +629,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-mq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jamie.service.mq.ServiceMqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jamie.service.zuul.ServiceZuulApplication" />
@@ -594,6 +675,8 @@
       <item itemvalue="Spring Boot.RedisApplication" />
       <item itemvalue="Spring Boot.MqApplication" />
       <item itemvalue="Spring Boot.RabbitMqApplication" />
+      <item itemvalue="Spring Boot.ApiMqApplication" />
+      <item itemvalue="Spring Boot.ServiceMqApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -641,7 +724,8 @@
       <workItem from="1571388229060" duration="2794000" />
       <workItem from="1571449011818" duration="1826000" />
       <workItem from="1571451941609" duration="5528000" />
-      <workItem from="1571483133270" duration="6655000" />
+      <workItem from="1571483133270" duration="7007000" />
+      <workItem from="1571568955805" duration="12410000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1571014324038</created>
@@ -713,7 +797,42 @@
       <option name="project" value="LOCAL" />
       <updated>1571486466502</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="RabbitMQ可传输对象">
+      <created>1571492608443</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571492608443</updated>
+    </task>
+    <task id="LOCAL-00012" summary="rabbitMq插入预消息">
+      <created>1571572717907</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1571572717907</updated>
+    </task>
+    <task id="LOCAL-00013" summary="rabbitMq插入预消息">
+      <created>1571575433333</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1571575433333</updated>
+    </task>
+    <task id="LOCAL-00014" summary="rabbitMq插入预消息">
+      <created>1571576376841</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1571576376841</updated>
+    </task>
+    <task id="LOCAL-00015" summary="rabbitMq插入预消息">
+      <created>1571576492835</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1571576492835</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -749,7 +868,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98836000" />
+    <option name="totallyTimeSpent" value="111598000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,7 +883,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4909091" visible="true" weight="0.3047696" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4909091" weight="0.2918351" />
       <window_info id="Structure" order="1" sideWeight="0.5090909" side_tool="true" weight="0.2934519" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -773,16 +892,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.86856127" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49474534" weight="0.5666075" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49393696" weight="0.6234458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4995958" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5052546" side_tool="true" weight="0.5150977" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50606304" side_tool="true" weight="0.49023092" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.4995958" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -847,304 +966,164 @@
     <MESSAGE value="解决使用Redis存放Session时超时时间不生效的问题" />
     <MESSAGE value="修改配置中心配置" />
     <MESSAGE value="config-base中引入微服务发现依赖以及注册中心依赖，各模块无需重复引入这两个依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="config-base中引入微服务发现依赖以及注册中心依赖，各模块无需重复引入这两个依赖" />
+    <MESSAGE value="RabbitMQ可传输对象" />
+    <MESSAGE value="rabbitMq插入预消息" />
+    <option name="LAST_COMMIT_MESSAGE" value="rabbitMq插入预消息" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.9.RELEASE/spring-boot-autoconfigure-2.1.9.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.6.RELEASE/spring-security-config-5.1.6.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/RememberMeConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
-          <folding>
-            <element signature="e#12325#12326#0" expanded="true" />
-            <element signature="e#12363#12364#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.11.RELEASE/spring-data-redis-2.1.11.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/db-mybatis-base/src/main/java/com/jamie/db_mybatis_base/datasource/HotDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="64" column="60" selection-start-line="64" selection-start-column="60" selection-end-line="64" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.6.RELEASE/spring-security-config-5.1.6.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/SessionManagementConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="128" column="59" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/config/SessionConfig.java" />
-    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/controller/LoginController.java" />
-    <entry file="file://$PROJECT_DIR$/common-bean/redis/src/main/java/com/jamie/redis/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/config/LoginConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-amqp/2.1.9.RELEASE/spring-boot-starter-amqp-2.1.9.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/test/java/com/jamie/rabbitmq/RabbitMqApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/util-base/src/main/java/com/jamie/utilbase/util/GUID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/java/com/jamie/api/a/service/ADataApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/rest/ADataRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding>
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/RabbitMqApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/config-repo/service-b.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/config-repo/service-a.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/config/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/resources/mq.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" lean-forward="true" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/config/RabbitmqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="96">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/api-mq/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="251">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/ServiceZuulApplication.java">
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/api-mq/src/test/java/com/jamie/api/mq/ApiMqApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/config-repo/zuul.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+          <caret line="6" column="8" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common-bean/db-mybatis-base/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288" />
+        <state relative-caret-position="-240" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/config/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/ServiceMqApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/web-b/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/web-a/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/entity/MessageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="12" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/entity/MessageEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/vo/NotifyVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="106" column="23" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
+        <state relative-caret-position="272">
+          <caret line="17" column="62" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/zuul/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/vo/NotifyVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="224">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/redis/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common-bean/db-mybatis-base/src/main/java/com/jamie/db_mybatis_base/datasource/DruidProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        <state relative-caret-position="-224">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common-bean/db-mybatis-base/src/main/java/com/jamie/db_mybatis_base/datasource/HotDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="971">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="-16">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="32">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/service/RabbitSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="72" column="5" selection-start-line="51" selection-start-column="3" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <caret line="36" column="21" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/config-base/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/dao/MessageDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/resources/mybatis_mapper/MessageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/RabbitMqApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/config-base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/resources/mq.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.1.9.RELEASE/spring-boot-dependencies-2.1.9.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/config/RabbitmqConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="649" column="6" selection-start-line="649" selection-start-column="6" selection-end-line="649" selection-end-column="6" />
+        <state relative-caret-position="32">
+          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1155,17 +1134,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/config/RabbitConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="113" column="29" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/java/com/jamie/api/a/vo/AVo.java">
+    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="25" column="85" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
+        <state relative-caret-position="304">
+          <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/service-mq/src/test/java/com/jamie/service/mq/ServiceMqApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1174,48 +1171,199 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/biz/ADataBiz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        <state relative-caret-position="64">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/service/RabbitSender.java">
+    <entry file="file://$PROJECT_DIR$/springcloud/config/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        <state relative-caret-position="153">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/api-a/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/ApiMqApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/java/com/jamie/api/a/service/ADataApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/service-mq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/biz/BDataBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/ServiceBApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/config-repo/service-b.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/config-repo/service-a.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="28" column="21" selection-start-line="24" selection-start-column="3" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/service-mq/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/config-base/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/entity/RabbitConfigEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/config-repo/service-rabbitmq.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/service/Urls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.1.11.RELEASE/spring-rabbit-2.1.11.RELEASE.jar!/org/springframework/amqp/rabbit/listener/adapter/MessagingMessageListenerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.1.10.RELEASE/spring-messaging-5.1.10.RELEASE.jar!/org/springframework/messaging/handler/invocation/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/biz/MessageBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
+          <folding>
+            <element signature="e#2183#2184#0" expanded="true" />
+            <element signature="e#2248#2249#0" expanded="true" />
+            <element signature="e#2305#2306#0" expanded="true" />
+            <element signature="e#2360#2361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/rest/MessageRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/service/MessageApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/dao/MessageDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="46" column="71" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/rabbit-mq/src/main/java/com/jamie/rabbitmq/vo/NotifyVo.java">
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/service-mq/src/main/resources/mybatis_mapper/MessageMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="185">
+          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/mq/api-mq/src/main/java/com/jamie/api/mq/entity/MqConfigEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/consume/RabbitConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        <state relative-caret-position="121">
+          <caret line="35" column="72" lean-forward="true" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>

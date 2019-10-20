@@ -107,7 +107,7 @@
         <!-- RabbitMQ模块 -->
         <dependency>
             <groupId>com.jamie</groupId>
-            <artifactId>rabbit-mq</artifactId>
+            <artifactId>api-mq</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

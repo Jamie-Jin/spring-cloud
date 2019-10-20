@@ -6,26 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api-mq" />
+        <module name="web-a" />
         <module name="service-b" />
         <module name="service-a" />
         <module name="redis" />
-        <module name="rabbit-mq" />
-        <module name="web-b" />
         <module name="feign" />
         <module name="service-zuul" />
         <module name="api-b" />
         <module name="api-a" />
+        <module name="service-mq" />
         <module name="eureka" />
         <module name="config" />
-        <module name="web-a" />
-        <module name="util-base" />
-        <module name="db-mybatis-base" />
         <module name="config-base" />
+        <module name="web-b" />
+        <module name="db-mybatis-base" />
+        <module name="util-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-a" target="1.8" />
       <module name="api-b" target="1.8" />
+      <module name="api-mq" target="1.8" />
       <module name="api-redis" target="1.8" />
       <module name="common" target="1.8" />
       <module name="common-bean" target="1.8" />
@@ -52,6 +54,7 @@
       <module name="redis" target="1.8" />
       <module name="service-a" target="1.8" />
       <module name="service-b" target="1.8" />
+      <module name="service-mq" target="1.8" />
       <module name="service-redis" target="1.8" />
       <module name="service-zuul" target="1.8" />
       <module name="springcloud" target="1.8" />
@@ -67,6 +70,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-a" options="-parameters" />
       <module name="api-b" options="-parameters" />
+      <module name="api-mq" options="-parameters" />
       <module name="api-redis" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="common-bean" options="-parameters" />
@@ -93,6 +97,7 @@
       <module name="redis" options="-parameters" />
       <module name="service-a" options="-parameters" />
       <module name="service-b" options="-parameters" />
+      <module name="service-mq" options="-parameters" />
       <module name="service-redis" options="-parameters" />
       <module name="service-zuul" options="-parameters" />
       <module name="springcloud" options="-parameters" />

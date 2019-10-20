@@ -1,6 +1,10 @@
 rabbitmq:
   queue: rabbit_queue
+  queue_durable: true
   exchange: rabbit_exchange
+  exchange_durable: true
+  exchange_type: topic
+  exchange_ignoreDeclarationExceptions: true
 
 spring:
   datasource:

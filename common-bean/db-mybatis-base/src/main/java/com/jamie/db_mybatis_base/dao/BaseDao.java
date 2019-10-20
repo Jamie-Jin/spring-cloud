@@ -28,6 +28,11 @@ public class BaseDao<T> extends SqlSessionDaoSupport {
         return stringBuilder.toString();
     }
 
+    /**
+     * 插入单条记录
+     * @param entity
+     * @return
+     */
     public int singleInsert(T entity){
         return sqlSessionTemplate.insert(getStatement(SINGLE_INSERT), entity);
     }

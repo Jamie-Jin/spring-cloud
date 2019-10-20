@@ -4,27 +4,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>cloud</artifactId>
+        <artifactId>common-bean</artifactId>
         <groupId>com.jamie</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>common-bean</artifactId>
+    <artifactId>mq</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>common-bean</name>
+    <name>mq</name>
     <packaging>pom</packaging>
-    <description>Demo project for Spring Boot</description>
+    <description>RabbitMQ模块</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
-    <modules>
-        <module>config-base</module>
-        <module>util-base</module>
-        <module>db-mybatis-base</module>
-        <module>redis</module>
-        <module>mq</module>
-    </modules>
+   <modules>
+       <module>api-mq</module>
+       <module>service-mq</module>
+   </modules>
 
 </project>

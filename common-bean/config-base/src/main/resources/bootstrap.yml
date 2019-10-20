@@ -2,11 +2,16 @@
 service:
   a: http://localhost:1001
   b: http://localhost:1002
+  mq: http://localhost:1003
 
-# RabbitMQ Queue and Exchange
+# RabbitMq queue exchange
 rabbitmq:
   queue: rabbit_queue
+  queue_durable: true
   exchange: rabbit_exchange
+  exchange_durable: true
+  exchange_type: topic
+  exchange_ignoreDeclarationExceptions: true
 
 # registry center
 eureka:

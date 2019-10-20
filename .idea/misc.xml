@@ -32,7 +32,9 @@
         <option value="$PROJECT_DIR$/common-bean/redis/api-redis/pom.xml" />
         <option value="$PROJECT_DIR$/common-bean/redis/service-redis/pom.xml" />
         <option value="$PROJECT_DIR$/common-bean/redis/pom.xml" />
-        <option value="$PROJECT_DIR$/common-bean/rabbit-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/mq/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/mq/api-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/mq/service-mq/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

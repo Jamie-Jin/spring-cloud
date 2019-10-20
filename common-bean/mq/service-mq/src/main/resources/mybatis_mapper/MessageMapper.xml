@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jamie.service.mq.dao.MessageDao">
+
+    <!-- 插入预消息 -->
+    <insert id="insert" parameterType="com.jamie.api.mq.entity.MessageEntity">
+        insert into `message`
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            routing_key, notify_id, body, status,
+        </trim>
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            #{routingKey}, #{notifyId}, #{body}, 0
+        </trim>
+    </insert>
+
+    <!-- 消息消费状态更新为1（消费成功） -->
+    <!-- 只更新未消费的记录 -->
+    <update id="successMessage" parameterType="java.util.HashMap">
+        update `message`
+        <trim prefix="set" suffixOverrides=",">
+            status = 1,
+            update_time = now(),
+        </trim>
+        <trim prefix="where" prefixOverrides="and">
+            and notify_id = #{notifyId}
+            and status = 0
+        </trim>
+    </update>
+
+    <!-- 消息消费状态更新为-1（消费失败） -->
+    <update id="failMessage" parameterType="java.util.HashMap">
+        update `message`
+        <trim prefix="set" suffixOverrides=",">
+            status = -1,
+            update_time = now(),
+        </trim>
+        <trim prefix="where" prefixOverrides="and">
+            and notify_id = #{notifyId}
+            and status in (0, 1)
+        </trim>
+    </update>
+
+</mapper>
