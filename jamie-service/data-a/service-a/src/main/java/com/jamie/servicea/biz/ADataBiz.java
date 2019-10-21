@@ -1,5 +1,6 @@
 package com.jamie.servicea.biz;
 
+import com.codingapi.txlcn.tc.annotation.LcnTransaction;
 import com.google.gson.Gson;
 import com.jamie.api.a.entity.TestEntity;
 import com.jamie.api.a.vo.AVo;
@@ -9,6 +10,7 @@ import com.jamie.servicea.dao.ADataDao;
 import com.jamie.utilbase.util.GUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -48,6 +50,17 @@ public class ADataBiz {
         }
 
         return aDataDao.getTest();
+    }
+
+    @LcnTransaction   // TX-LCN分布式事务注解
+    @Transactional    // 本地事务
+    public void insertA(String msg){
+        TestEntity testEntity = new TestEntity();
+        testEntity.setMsg(msg);
+
+        aDataDao.singleInsert(testEntity);
+
+        //throw new NullPointerException();
     }
 
 }

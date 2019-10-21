@@ -35,6 +35,7 @@
         <option value="$PROJECT_DIR$/common-bean/mq/pom.xml" />
         <option value="$PROJECT_DIR$/common-bean/mq/api-mq/pom.xml" />
         <option value="$PROJECT_DIR$/common-bean/mq/service-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/tx-manager/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

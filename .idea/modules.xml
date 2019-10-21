@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/common-bean/mq/service-mq/service-mq.iml" filepath="$PROJECT_DIR$/common-bean/mq/service-mq/service-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/springcloud/zuul/service-zuul/service-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/springcloud.iml" filepath="$PROJECT_DIR$/springcloud/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-bean/tx-manager/tx-manager.iml" filepath="$PROJECT_DIR$/common-bean/tx-manager/tx-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-bean/util-base/util-base.iml" filepath="$PROJECT_DIR$/common-bean/util-base/util-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-a/web-a/web-a.iml" filepath="$PROJECT_DIR$/jamie-service/data-a/web-a/web-a.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-b/web-b/web-b.iml" filepath="$PROJECT_DIR$/jamie-service/data-b/web-b/web-b.iml" />

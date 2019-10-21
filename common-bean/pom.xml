@@ -25,6 +25,7 @@
         <module>db-mybatis-base</module>
         <module>redis</module>
         <module>mq</module>
+        <module>tx-manager</module>
     </modules>
 
 </project>

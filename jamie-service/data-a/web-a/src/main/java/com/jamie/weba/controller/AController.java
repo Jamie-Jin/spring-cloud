@@ -25,4 +25,8 @@ public class AController {
         return aDataApi.getTest();
     }
 
+    @RequestMapping("/insert")
+    public void insert(){
+        aDataApi.insertA("数据库-分布式事务测试");
+    }
 }

@@ -11,17 +11,18 @@
         <module name="service-b" />
         <module name="service-a" />
         <module name="redis" />
+        <module name="tx-manager" />
+        <module name="web-b" />
         <module name="feign" />
         <module name="service-zuul" />
         <module name="api-b" />
         <module name="api-a" />
-        <module name="service-mq" />
         <module name="eureka" />
         <module name="config" />
-        <module name="config-base" />
-        <module name="web-b" />
-        <module name="db-mybatis-base" />
+        <module name="service-mq" />
         <module name="util-base" />
+        <module name="db-mybatis-base" />
+        <module name="config-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -58,6 +59,7 @@
       <module name="service-redis" target="1.8" />
       <module name="service-zuul" target="1.8" />
       <module name="springcloud" target="1.8" />
+      <module name="tx-manager" target="1.8" />
       <module name="util" target="1.8" />
       <module name="util-base" target="1.8" />
       <module name="web-a" target="1.8" />
@@ -101,6 +103,7 @@
       <module name="service-redis" options="-parameters" />
       <module name="service-zuul" options="-parameters" />
       <module name="springcloud" options="-parameters" />
+      <module name="tx-manager" options="-parameters" />
       <module name="util" options="-parameters" />
       <module name="util-base" options="-parameters" />
       <module name="web-a" options="-parameters" />

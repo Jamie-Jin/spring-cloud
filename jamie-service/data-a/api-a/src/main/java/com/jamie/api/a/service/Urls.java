@@ -4,4 +4,6 @@ public class Urls {
     public static final String getTestByA = "service/a/getTestByA";
 
     public static final String getTest = "service/a/getTest";
+
+    public static final String insertA = "service/a/insertA";
 }

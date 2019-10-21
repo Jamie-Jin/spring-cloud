@@ -6,4 +6,14 @@
     <select id="getTest" resultType="com.jamie.api.a.entity.TestEntity">
         select * from `test`
     </select>
+
+    <insert id="insert" parameterType="com.jamie.api.a.entity.TestEntity">
+        insert into `test`
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            msg,
+        </trim>
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            #{msg},
+        </trim>
+    </insert>
 </mapper>

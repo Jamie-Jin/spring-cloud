@@ -4,3 +4,7 @@ server:
 spring:
   application:
     name: service-b
+
+tx-lcn:
+  client:
+    manager-address: localhost:8070

@@ -7,6 +7,7 @@ import com.jamie.service.b.biz.BDataBiz;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -19,6 +20,12 @@ public class BDataRest implements BDataApi {
     @HystrixCommand(fallbackMethod = "getTestByBFallback")
     public TestEntity getTestByB() {
         return bDataBiz.getTest();
+    }
+
+    @Override
+    @PostMapping(Urls.insertB)
+    public void insertB(@RequestBody String msg) {
+        bDataBiz.insertB(msg);
     }
 
     // getTestByB 服务降级
