@@ -1,6 +1,8 @@
 package com.jamie.servicea.biz;
 
+import com.codingapi.txlcn.tc.annotation.DTXPropagation;
 import com.codingapi.txlcn.tc.annotation.LcnTransaction;
+import com.codingapi.txlcn.tc.annotation.TccTransaction;
 import com.google.gson.Gson;
 import com.jamie.api.a.entity.TestEntity;
 import com.jamie.api.a.vo.AVo;
@@ -52,7 +54,7 @@ public class ADataBiz {
         return aDataDao.getTest();
     }
 
-    @LcnTransaction   // TX-LCN分布式事务注解
+    @LcnTransaction(propagation = DTXPropagation.SUPPORTS)   // TX-LCN分布式事务注解
     @Transactional    // 本地事务
     public void insertA(String msg){
         TestEntity testEntity = new TestEntity();

@@ -2,6 +2,7 @@
 service:
   a: http://localhost:1001
   b: http://localhost:1002
+  c: http://localhost:1004
   mq: http://localhost:1003
 
 # RabbitMq queue exchange

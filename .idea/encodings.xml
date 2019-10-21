@@ -20,6 +20,9 @@
     <file url="file://$PROJECT_DIR$/jamie-service/data-b/api-b" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jamie-service/data-b/service-b" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jamie-service/data-b/web-b" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jamie-service/data-c-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jamie-service/data-c-redis/api-c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jamie-service/data-c-redis/service-c" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/eureka" charset="UTF-8" />

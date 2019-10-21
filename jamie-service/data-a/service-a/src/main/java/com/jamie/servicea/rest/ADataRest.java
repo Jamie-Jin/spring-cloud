@@ -1,10 +1,14 @@
 package com.jamie.servicea.rest;
 
+import com.codingapi.txlcn.tc.annotation.DTXPropagation;
 import com.codingapi.txlcn.tc.annotation.LcnTransaction;
+import com.codingapi.txlcn.tc.annotation.TccTransaction;
 import com.jamie.api.a.entity.TestEntity;
 import com.jamie.api.a.service.ADataApi;
 import com.jamie.api.a.service.Urls;
 import com.jamie.api.b.service.BDataApi;
+import com.jamie.api.c.service.CRedisApi;
+import com.jamie.api.c.vo.Cvo;
 import com.jamie.servicea.biz.ADataBiz;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.slf4j.Logger;
@@ -27,6 +31,9 @@ public class ADataRest implements ADataApi {
 
     @Autowired
     private BDataApi bDataApi;
+
+    @Autowired
+    private CRedisApi cRedisApi;
 
     // 访问Service-A数据
     @Override
@@ -73,11 +80,16 @@ public class ADataRest implements ADataApi {
     @Override
     @PostMapping(Urls.insertA)
     @LcnTransaction
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     public void insertA(String msg) {
         aDataBiz.insertA(msg);
 
-        bDataApi.insertB(msg);
+        Cvo cvo = new Cvo();
+        cvo.setKey("test");
+        cvo.setVal("Tx-LCN分布式事务回滚测试");
+        cRedisApi.insertC(cvo);
+
+        //bDataApi.insertB(msg);
     }
 
 }

@@ -4,25 +4,29 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>cloud</artifactId>
+        <artifactId>data-c-redis</artifactId>
         <groupId>com.jamie</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jamie-service</artifactId>
+    <artifactId>api-c</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>jamie-service</name>
-    <packaging>pom</packaging>
-    <description>提供服务模块</description>
+    <name>api-c</name>
+    <packaging>jar</packaging>
+    <description>数据模块C-接口层</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
-    <modules>
-        <module>data-a</module>
-        <module>data-b</module>
-        <module>data-c-redis</module>
-    </modules>
+    <dependencies>
+
+        <dependency>
+            <groupId>com.jamie</groupId>
+            <artifactId>feign</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
