@@ -36,9 +36,6 @@ public class CRedisBiz {
         // Sets.newHashSet: com.google.common.collect
         ids.putIfAbsent(TracingContext.tracing().groupId(), Sets.newHashSet(cvo.getKey()));
         ids.get(TracingContext.tracing().groupId()).add(cvo.getKey());
-
-        // TODO 事务回滚测试
-        throw new NullPointerException("分布式事务测试");
     }
 
     // 事务提交 (注意：方法参数要和执行事务方法【insertC】的参数一致)

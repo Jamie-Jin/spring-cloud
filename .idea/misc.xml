@@ -39,6 +39,7 @@
         <option value="$PROJECT_DIR$/jamie-service/data-c-redis/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-c-redis/api-c/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/tx-manager/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>common-bean</artifactId>
+        <artifactId>springcloud</artifactId>
         <groupId>com.jamie</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -13,7 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>tx-manager</name>
     <packaging>jar</packaging>
-    <description>SpringCloud分布式事务管理模块（TX-Manager）</description>
+    <description>TX-LCN分布式事务管理中心</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -28,22 +28,32 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
         </dependency>
 
-        <!-- TX-Manager -->
+        <!-- TX-Manager：TX-LCN分布式事务管理中心 -->
         <dependency>
             <groupId>com.codingapi.txlcn</groupId>
             <artifactId>txlcn-tm</artifactId>
         </dependency>
 
-        <!-- MySQL驱动 -->
+        <!-- 用于通过配置中心刷新配置 start -->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-bus</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
+        </dependency>
+        <!-- 用于通过配置中心刷新配置 end -->
+
+        <!-- 公共配置模块：内涵微服务发现机制，配置中心依赖 -->
+        <dependency>
+            <groupId>com.jamie</groupId>
+            <artifactId>config-base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>

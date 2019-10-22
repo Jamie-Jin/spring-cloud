@@ -1,13 +1,13 @@
-package com.jamie.tx.manager;
+package com.jamie.txmanager;
 
 import com.codingapi.txlcn.tm.config.EnableTransactionManagerServer;
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-@SpringBootApplication
-@EnableTransactionManagerServer //开启Tx-Manager分布式事务管理
-@MapperScan("com.jamie.tx.manager.dao")
+@SpringBootApplication(scanBasePackages = "com.jamie")
+@EnableDiscoveryClient          //开启微服务发现机制
+@EnableTransactionManagerServer //开启事务管理中心
 public class TxManagerApplication {
 
     public static void main(String[] args) {
