@@ -5,7 +5,7 @@ spring:
   application:
     name: service-a
 
-tx-lcn:
-  client:
-    manager-address: 127.0.0.1:8070
+#tx-lcn:
+#  client:
+#    manager-address: 127.0.0.1:8070
 

@@ -35,8 +35,14 @@ mybatis:
     use-generated-keys: true
     map-underscore-to-camel-case: true
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
 management:
   endpoints:
     web:
       exposure:
         include: '*'
+
+# TX-Manager address
+tx-lcn:
+  client:
+    manager-address: 127.0.0.1:8070
