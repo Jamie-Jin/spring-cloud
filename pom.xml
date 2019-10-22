@@ -111,9 +111,6 @@
                 <version>2.1.4.RELEASE</version>
             </dependency>
 
-            <!-- Redis -->
-
-
             <!-- Redis键值对序列化时要用到 start -->
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
@@ -135,12 +132,29 @@
                 <version>1.3.5.RELEASE</version>
             </dependency>
 
-            <!-- TX-Manager -->
+            <!-- TX-LCN分布式事务依赖 start -->
+            <!-- TX-Manager：分布式事务管理中心 -->
             <dependency>
                 <groupId>com.codingapi.txlcn</groupId>
                 <artifactId>txlcn-tm</artifactId>
                 <version>5.0.2.RELEASE</version>
             </dependency>
+
+            <!-- TX-LCN分布式事务客户端依赖 -->
+            <!-- tc -->
+            <dependency>
+                <groupId>com.codingapi.txlcn</groupId>
+                <artifactId>txlcn-tc</artifactId>
+                <version>5.0.2.RELEASE</version>
+            </dependency>
+
+            <!-- tc与tm通讯 -->
+            <dependency>
+                <groupId>com.codingapi.txlcn</groupId>
+                <artifactId>txlcn-txmsg-netty</artifactId>
+                <version>5.0.2.RELEASE</version>
+            </dependency>
+            <!-- TX-LCN分布式事务依赖 end -->
 
         </dependencies>
 

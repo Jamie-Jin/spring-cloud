@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79df1285-d4dd-453f-b31c-b2ad7ef6196b" name="Default Changelist" comment="TX-LCN分布式事务使用LCN以及TCC保证MySQL数据源与Redis数据源事务一致性">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="79df1285-d4dd-453f-b31c-b2ad7ef6196b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-bean/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-bean/tx-manager/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/tx-manager/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-bean/tx-manager/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/tx-manager/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-bean/tx-manager/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/tx-manager/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-bean/tx-manager/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/tx-manager/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-bean/tx-manager/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/tx-manager/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-bean/tx-manager/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/tx-manager/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-bean/tx-manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/tx-manager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-bean/tx-manager/src/main/java/com/jamie/tx/manager/TxManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/tx-manager/src/main/java/com/jamie/txmanager/TxManagerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-bean/tx-manager/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/tx-manager/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/java/com/jamie/service/c/biz/CRedisBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/java/com/jamie/service/c/biz/CRedisBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,14 +84,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/java/com/jamie/service/c/biz/CRedisBiz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="267">
               <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/service-c/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="59" column="32" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="126" column="21" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="150" column="25" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -127,7 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>RedisConnection</find>
       <find>spring-session</find>
       <find>Redis</find>
       <find>security</find>
@@ -157,6 +177,7 @@
       <find>mysql</find>
       <find>manager-address</find>
       <find>bus</find>
+      <find>txlcn-tc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,9 +191,7 @@
         <option value="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/java/com/jamie/service/mq/rest/MessageRest.java" />
         <option value="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/resources/mybatis_mapper/MessageMapper.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/consume/RabbitConsumer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/common-bean/tx-manager/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/ServiceBApplication.java" />
         <option value="$PROJECT_DIR$/jamie-service/data-b/api-b/src/main/java/com/jamie/api/b/service/Urls.java" />
         <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/dao/BDataDao.java" />
@@ -193,7 +212,6 @@
         <option value="$PROJECT_DIR$/common-bean/config-base/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/jamie-service/data-c-redis/api-c/src/main/java/com/jamie/api/c/service/CRedisApi.java" />
         <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/ServiceAApplication.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/java/com/jamie/service/c/ServiceCApplication.java" />
         <option value="$PROJECT_DIR$/common-bean/redis/src/main/java/com/jamie/redis/service/RedisService.java" />
         <option value="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/resources/application.properties" />
@@ -211,11 +229,14 @@
         <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud/config-repo/tx-manager.properties" />
         <option value="$PROJECT_DIR$/springcloud/tx-manager/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springcloud/tx-manager/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/java/com/jamie/service/c/biz/CRedisBiz.java" />
+        <option value="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/pom.xml" />
+        <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml" />
+        <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -316,11 +337,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="c" type="462c0819:PsiDirectoryNode" />
               <item name="biz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -602,7 +618,7 @@
       <workItem from="1571627312057" duration="4927000" />
       <workItem from="1571657718630" duration="42000" />
       <workItem from="1571657872571" duration="11437000" />
-      <workItem from="1571701608344" duration="2070000" />
+      <workItem from="1571701608344" duration="2315000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1571014324038</created>
@@ -737,7 +753,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571703155213</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="TX-Manager分布式事务管理中心微服务化">
+      <created>1571703759317</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1571703759317</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -773,7 +796,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135687000" />
+    <option name="totallyTimeSpent" value="135932000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -877,35 +900,14 @@
     <MESSAGE value="添加TX-LCN分布式事务支持" />
     <MESSAGE value="TX-LCN分布式事务使用LCN以及TCC保证MySQL数据源与Redis数据源事务一致性" />
     <MESSAGE value="TX-Manager使用配置中心" />
-    <option name="LAST_COMMIT_MESSAGE" value="TX-Manager使用配置中心" />
+    <MESSAGE value="TX-Manager分布式事务管理中心微服务化" />
+    <option name="LAST_COMMIT_MESSAGE" value="TX-Manager分布式事务管理中心微服务化" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/rest/BDataRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/biz/BDataBiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/api-c/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1122,13 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-597">
-          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -1152,13 +1147,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jamie_cloud.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/service-c/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/biz/ADataBiz.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1227,13 +1215,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud/tx-manager/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -1243,11 +1224,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/java/com/jamie/service/c/biz/CRedisBiz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="267">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/codingapi/txlcn/txlcn-txmsg-netty/5.0.2.RELEASE/txlcn-txmsg-netty-5.0.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/service-c/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="59" column="32" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="126" column="21" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="150" column="25" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
         </state>
       </provider>
     </entry>
