@@ -39,5 +39,5 @@ zuul:
     web-login:
       path: /user/**
       serviceId: web-login
-      stripPrefix: true
       url: http://localhost:2005/
+  strip-prefix: true
