@@ -1,4 +1,10 @@
+server:
+  port: 1006
+
 spring:
+  application:
+    name: service-login
+
   datasource:
     druid:
       url: jdbc:mysql://localhost:3306/cloud_user?serverTimezone=Asia/Shanghai&useSSL=false&useUnicode=utf-8&allowPublicKeyRetrieval=true
@@ -26,7 +32,12 @@ mybatis:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 zuul:
+  ignored-services: '*'
   routes:
     web-a: /a/**
     web-b: /b/**
-    web-login: /user/**
+    web-login:
+      path: /user/**
+      serviceId: web-login
+      stripPrefix: true
+      url: http://localhost:2005/
