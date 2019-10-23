@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/cloud_user?serverTimezone=Asia/Shanghai&useSSL=false&useUnicode=utf-8&allowPublicKeyRetrieval=true
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      initial-size: 1
+      min-idle: 1
+      max-active: 5
+      max-wait: 6000
+      pool-prepared-statements: false
+      validation-query: select 1 from DUAL
+      validation-query-timeout: 6000
+      test-on-borrow: true
+      test-on-return: false
+      test-while-idle: true
+      time-between-eviction-runs-millis: 90000
+      min-evictable-idle-time-millis: 30000
+
+mybatis:
+  mapper-locations: classpath:mybatis_mapper/*.xml
+  configuration:
+    use-generated-keys: true
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+zuul:
+  routes:
+    web-a: /a/**
+    web-b: /b/**
+    web-login: /user/**
