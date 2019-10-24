@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-c-redis/api-c/api-c.iml" filepath="$PROJECT_DIR$/jamie-service/data-c-redis/api-c/api-c.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-bean/mq/api-mq/api-mq.iml" filepath="$PROJECT_DIR$/common-bean/mq/api-mq/api-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-bean/common-bean.iml" filepath="$PROJECT_DIR$/common-bean/common-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-bean/common-web/common-web.iml" filepath="$PROJECT_DIR$/common-bean/common-web/common-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/config/config.iml" filepath="$PROJECT_DIR$/springcloud/config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-bean/config-base/config-base.iml" filepath="$PROJECT_DIR$/common-bean/config-base/config-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-a/data-a.iml" filepath="$PROJECT_DIR$/jamie-service/data-a/data-a.iml" />
@@ -17,11 +18,13 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud/feign/feign.iml" filepath="$PROJECT_DIR$/springcloud/feign/feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/jamie-service.iml" filepath="$PROJECT_DIR$/jamie-service/jamie-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie_cloud.iml" filepath="$PROJECT_DIR$/jamie_cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/login-zuul/login-zuul.iml" filepath="$PROJECT_DIR$/springcloud/login-zuul/login-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-bean/mq/mq.iml" filepath="$PROJECT_DIR$/common-bean/mq/mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-bean/redis/redis.iml" filepath="$PROJECT_DIR$/common-bean/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-a/service-a/service-a.iml" filepath="$PROJECT_DIR$/jamie-service/data-a/service-a/service-a.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-b/service-b/service-b.iml" filepath="$PROJECT_DIR$/jamie-service/data-b/service-b/service-b.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-c-redis/service-c/service-c.iml" filepath="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/service-c.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/service-login.iml" filepath="$PROJECT_DIR$/springcloud/login-zuul/service-login/service-login.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-bean/mq/service-mq/service-mq.iml" filepath="$PROJECT_DIR$/common-bean/mq/service-mq/service-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/springcloud/zuul/service-zuul/service-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/springcloud.iml" filepath="$PROJECT_DIR$/springcloud/springcloud.iml" />
@@ -29,6 +32,8 @@
       <module fileurl="file://$PROJECT_DIR$/common-bean/util-base/util-base.iml" filepath="$PROJECT_DIR$/common-bean/util-base/util-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-a/web-a/web-a.iml" filepath="$PROJECT_DIR$/jamie-service/data-a/web-a/web-a.iml" />
       <module fileurl="file://$PROJECT_DIR$/jamie-service/data-b/web-b/web-b.iml" filepath="$PROJECT_DIR$/jamie-service/data-b/web-b/web-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/login-zuul/web-login/web-login.iml" filepath="$PROJECT_DIR$/springcloud/login-zuul/web-login/web-login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-bean/static-res/web-static/web-static.iml" filepath="$PROJECT_DIR$/common-bean/static-res/web-static/web-static.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/zuul/zuul.iml" filepath="$PROJECT_DIR$/springcloud/zuul/zuul.iml" />
     </modules>
   </component>

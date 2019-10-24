@@ -156,6 +156,27 @@
             </dependency>
             <!-- TX-LCN分布式事务依赖 end -->
 
+            <!-- Freemarker相关依赖 start -->
+            <dependency>
+                <groupId>com.googlecode.rapid-framework</groupId>
+                <artifactId>rapid-core</artifactId>
+                <version>4.0.5</version>
+            </dependency>
+
+            <!-- Freemarker -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-freemarker</artifactId>
+                <version>2.1.9.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>2.6</version>
+            </dependency>
+            <!-- Freemarker相关依赖 end -->
+
         </dependencies>
 
     </dependencyManagement>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="static-res:war">
+    <output-path>$PROJECT_DIR$/common-bean/static-res/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>static-res</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="static-res-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="static-res:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/common-bean/static-res" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -40,6 +43,12 @@
         <option value="$PROJECT_DIR$/jamie-service/data-c-redis/api-c/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud/tx-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/web-login/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/static-res/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/static-res/web-static/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/common-web/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/service-login/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -25,6 +25,7 @@
         <module>feign</module>
         <module>zuul</module>
         <module>tx-manager</module>
+        <module>login-zuul</module>
     </modules>
 
 </project>

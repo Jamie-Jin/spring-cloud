@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.jamie</groupId>
+    <artifactId>web-static</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>web-static</name>
+    <packaging>war</packaging>
+    <description>静态资源</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.4</version>
+            </plugin>
+
+            <plugin>
+                <!-- YUI Compressor Maven压缩插件 -->
+                <groupId>net.alchim31.maven</groupId>
+                <artifactId>yuicompressor-maven-plugin</artifactId>
+                <version>1.5.1</version>
+                <executions>
+                    <execution>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>compress</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <!-- 读取js,css文件采用UTF-8编码 -->
+                    <encoding>UTF-8</encoding>
+                    <!-- 不显示js可能的错误 -->
+                    <jswarn>false</jswarn>
+                    <!-- 若存在已压缩的文件，会先对比源文件是否有改动  有改动便压缩，无改动就不压缩 -->
+                    <force>false</force>
+                    <!-- 在指定的列号后插入新行 -->
+                    <linebreakpos>-1</linebreakpos>
+                    <!-- 压缩之前先执行聚合文件操作 -->
+                    <preProcessAggregates>false</preProcessAggregates>
+                    <!-- 压缩后保存文件后缀 无后缀 -->
+                    <nosuffix>true</nosuffix>
+                    <!-- 源目录，即需压缩的根目录 -->
+                    <sourceDirectory>src/main/webapp</sourceDirectory>
+                    <!-- 压缩js和css文件 -->
+                    <includes>
+                        <include>**/*.js</include>
+                        <include>**/*.css</include>
+                    </includes>
+                    <!-- 以下目录和文件不会被压缩 -->
+                    <excludes>
+                        <!-- 第三方js，css都放在3rd中，一定要加上这句，不然部分样式无法找到 -->
+                        <exclude>static/js/3rd/**</exclude>
+                        <exclude>**/*.min.js</exclude>
+                        <exclude>**/*.min.css</exclude>
+                    </excludes>
+
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

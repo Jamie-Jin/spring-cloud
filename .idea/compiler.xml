@@ -11,20 +11,24 @@
         <module name="service-b" />
         <module name="service-a" />
         <module name="redis" />
-        <module name="web-a" />
+        <module name="web-login" />
         <module name="tx-manager" />
+        <module name="web-b" />
+        <module name="db-mybatis-base" />
         <module name="feign" />
         <module name="service-zuul" />
+        <module name="service-login" />
         <module name="api-c" />
         <module name="api-b" />
         <module name="api-a" />
         <module name="service-mq" />
         <module name="eureka" />
         <module name="config" />
-        <module name="web-b" />
-        <module name="util-base" />
-        <module name="db-mybatis-base" />
         <module name="config-base" />
+        <module name="web-a" />
+        <module name="web-static" />
+        <module name="common-web" />
+        <module name="util-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,6 +42,7 @@
       <module name="common-config" target="1.8" />
       <module name="common-model" target="1.8" />
       <module name="common-util" target="1.8" />
+      <module name="common-web" target="1.8" />
       <module name="config" target="1.8" />
       <module name="config-base" target="1.8" />
       <module name="data-a" target="1.8" />
@@ -50,6 +55,7 @@
       <module name="jamie-service" target="1.8" />
       <module name="jamie_cloud" target="1.8" />
       <module name="login" target="1.8" />
+      <module name="login-zuul" target="1.8" />
       <module name="monitor" target="1.8" />
       <module name="mq" target="1.8" />
       <module name="mybatis-base" target="1.8" />
@@ -60,16 +66,20 @@
       <module name="service-a" target="1.8" />
       <module name="service-b" target="1.8" />
       <module name="service-c" target="1.8" />
+      <module name="service-login" target="1.8" />
       <module name="service-mq" target="1.8" />
       <module name="service-redis" target="1.8" />
       <module name="service-zuul" target="1.8" />
       <module name="springcloud" target="1.8" />
+      <module name="static-res" target="1.5" />
       <module name="tx-manager" target="1.8" />
       <module name="tx-manager1" target="1.8" />
       <module name="util" target="1.8" />
       <module name="util-base" target="1.8" />
       <module name="web-a" target="1.8" />
       <module name="web-b" target="1.8" />
+      <module name="web-login" target="1.8" />
+      <module name="web-static" target="1.5" />
       <module name="zuul" target="1.8" />
       <module name="zuul1" target="1.8" />
     </bytecodeTargetLevel>
@@ -86,6 +96,7 @@
       <module name="common-config" options="-parameters" />
       <module name="common-model" options="-parameters" />
       <module name="common-util" options="-parameters" />
+      <module name="common-web" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="config-base" options="-parameters" />
       <module name="data-a" options="" />
@@ -98,6 +109,7 @@
       <module name="jamie-service" options="-parameters" />
       <module name="jamie_cloud" options="-parameters" />
       <module name="login" options="-parameters" />
+      <module name="login-zuul" options="-parameters" />
       <module name="monitor" options="-parameters" />
       <module name="mq" options="-parameters" />
       <module name="mybatis-base" options="-parameters" />
@@ -108,16 +120,20 @@
       <module name="service-a" options="-parameters" />
       <module name="service-b" options="-parameters" />
       <module name="service-c" options="-parameters" />
+      <module name="service-login" options="-parameters" />
       <module name="service-mq" options="-parameters" />
       <module name="service-redis" options="-parameters" />
       <module name="service-zuul" options="-parameters" />
       <module name="springcloud" options="-parameters" />
+      <module name="static-res" options="-parameters" />
       <module name="tx-manager" options="-parameters" />
       <module name="tx-manager1" options="-parameters" />
       <module name="util" options="-parameters" />
       <module name="util-base" options="-parameters" />
       <module name="web-a" options="-parameters" />
       <module name="web-b" options="-parameters" />
+      <module name="web-login" options="-parameters" />
+      <module name="web-static" options="" />
       <module name="zuul" options="-parameters" />
       <module name="zuul1" options="-parameters" />
     </option>

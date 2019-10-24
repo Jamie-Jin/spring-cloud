@@ -1,14 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web-static:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="79df1285-d4dd-453f-b31c-b2ad7ef6196b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud/config-repo/service-c.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/static_res_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/static_res_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_static_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_static_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_rapid_framework_rapid_core_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_common_schemas_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_common_utilities_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_soap_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_xml_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_core_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_databinding_jaxb_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxws_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_simple_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_addr_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_security_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_tools_common_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_javamail_1_4_spec_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_neethi_neethi_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_santuario_xmlsec_1_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_commons_schema_XmlSchema_1_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_security_wss4j_1_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15_1_45.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/common-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/common-web/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/common-web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/common-web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/common-web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/common-web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/common-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/common-web/src/main/java/com/jamie/common/web/filter/WebFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/common-web/src/main/java/com/jamie/common/web/result/JsonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/common-web/src/main/java/com/jamie/common/web/result/ResultBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/common-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/java/com/jamie/web_static/filter/CORSFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/target/classes/META-INF/web-static.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/target/classes/com/jamie/web_static/filter/CORSFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/target/web-static-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/target/web-static-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/target/web-static-0.0.1-SNAPSHOT/WEB-INF/classes/META-INF/web-static.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/target/web-static-0.0.1-SNAPSHOT/WEB-INF/classes/com/jamie/web_static/filter/CORSFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/target/web-static-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-bean/static-res/web-static/web-static.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/login-zuul.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/ServiceLoginApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/config/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/config/ZuulFallbackConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/pojo/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/pojo/vo/UserRoleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/service/LoginUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/resources/mybatis_mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/web-login/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/web-login/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/web-login/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/web-login/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/web-login/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/web-login/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/web-login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/java/com/jamie/web/login/WebLoginApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/java/com/jamie/web/login/bean/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/java/com/jamie/web/login/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/java/com/jamie/web/login/filter/WebAppConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/resources/templates/layout/base.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/resources/templates/user/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud/config-repo/service-a.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/config-repo/service-a.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud/config-repo/service-b.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/config-repo/service-b.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-bean/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-bean/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/config-repo/service-login.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/config-repo/service-login.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,6 +280,12 @@
     <ignored path="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/target/" />
     <ignored path="$PROJECT_DIR$/common-bean/tx-manager1/target/" />
     <ignored path="$PROJECT_DIR$/springcloud/tx-manager/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/login-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/login-zuul/web-login/target/" />
+    <ignored path="$PROJECT_DIR$/common-bean/static-res/target/" />
+    <ignored path="$PROJECT_DIR$/common-bean/static-res/web-static/target/" />
+    <ignored path="$PROJECT_DIR$/common-bean/common-web/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud/login-zuul/service-login/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,57 +310,70 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/resources/templates/user/login.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" selection-start-line="7" selection-start-column="1" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="205">
+              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/service/LoginUserDetailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="240">
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/config/SpringSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="47" column="78" selection-start-line="47" selection-start-column="78" selection-end-line="47" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/springcloud/config-repo/service-login.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" selection-start-line="7" selection-start-column="1" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="427">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud/config-repo/service-c.yml">
+        <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/java/com/jamie/web/login/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="256">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud/config-repo/service-a.yml">
+        <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud/config-repo/service-b.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="109">
+              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -149,6 +387,7 @@
         <option value="FxmlFile" />
         <option value="Interface" />
         <option value="XSLT Stylesheet" />
+        <option value="jsf" />
         <option value="Mapper" />
         <option value="Class" />
       </list>
@@ -156,15 +395,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spring-session</find>
-      <find>Redis</find>
-      <find>security</find>
-      <find>session</find>
-      <find>·</find>
-      <find>tokenValiditySeconds</find>
-      <find>tokenRememberMeServices</find>
-      <find>getRememberMeServices</find>
-      <find>60</find>
       <find>mq_host</find>
       <find>mq.A_TO_B</find>
       <find>localhost:1001</find>
@@ -175,7 +405,6 @@
       <find>java.util.HashMap</find>
       <find>now()</find>
       <find>failMessage</find>
-      <find>redis</find>
       <find>jdbc:mysql</find>
       <find>datasource</find>
       <find>serverTimezone</find>
@@ -186,6 +415,16 @@
       <find>bus</find>
       <find>txlcn-tc</find>
       <find>manager-address</find>
+      <find>layui-form</find>
+      <find>layui-elip</find>
+      <find>/user/user</find>
+      <find>user/user</find>
+      <find>redis</find>
+      <find>@EnableWebSecurity</find>
+      <find>EnableRedisHttpSession</find>
+      <find>EnableZuulProxy</find>
+      <find>ADMIN</find>
+      <find>user/login</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -194,59 +433,66 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common-bean/mq/service-mq/src/main/resources/mybatis_mapper/MessageMapper.xml" />
-        <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/consume/RabbitConsumer.java" />
-        <option value="$PROJECT_DIR$/common-bean/tx-manager/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/ServiceBApplication.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-b/api-b/src/main/java/com/jamie/api/b/service/Urls.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/dao/BDataDao.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/java/com/jamie/api/a/service/Urls.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/java/com/jamie/api/a/service/ADataApi.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-a/web-a/src/main/java/com/jamie/weba/controller/AController.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/resources/mybatis_mapper/TestDao.xml" />
-        <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/resources/mybatis_mapper/TestDao.xml" />
-        <option value="$PROJECT_DIR$/jamie-service/data-b/api-b/src/main/java/com/jamie/api/b/service/BDataApi.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/rest/BDataRest.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/biz/BDataBiz.java" />
-        <option value="$PROJECT_DIR$/jamie-service/pom.xml" />
-        <option value="$PROJECT_DIR$/jamie-service/data-c-redis/api-c/pom.xml" />
-        <option value="$PROJECT_DIR$/jamie-service/data-c-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/jamie-service/data-c-redis/api-c/src/main/java/com/jamie/api/c/service/Urls.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-c-redis/api-c/src/main/java/com/jamie/api/c/vo/Cvo.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/java/com/jamie/service/c/rest/CRedisRest.java" />
-        <option value="$PROJECT_DIR$/common-bean/config-base/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/jamie-service/data-c-redis/api-c/src/main/java/com/jamie/api/c/service/CRedisApi.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/ServiceAApplication.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/java/com/jamie/service/c/ServiceCApplication.java" />
-        <option value="$PROJECT_DIR$/common-bean/redis/src/main/java/com/jamie/redis/service/RedisService.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/common-bean/tx-manager/src/main/java/com/jamie/tx/manager/entity/DemoEntity.java" />
-        <option value="$PROJECT_DIR$/common-bean/tx-manager/src/main/java/com/jamie/tx/manager/TxManagerApplication.java" />
-        <option value="$PROJECT_DIR$/common-bean/tx-manager/src/main/java/com/jamie/tx/manager/dao/DemoDao.java" />
-        <option value="$PROJECT_DIR$/common-bean/tx-manager/src/main/resources/mybatis_mapper/DemoMapper.xml" />
-        <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/biz/ADataBiz.java" />
-        <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/rest/ADataRest.java" />
-        <option value="$PROJECT_DIR$/common-bean/tx-manager/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/common-bean/tx-manager/pom.xml" />
-        <option value="$PROJECT_DIR$/common-bean/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud/tx-manager/src/main/java/com/jamie/txmanager/TxManagerApplication.java" />
-        <option value="$PROJECT_DIR$/springcloud/config-repo/tx-manager.properties" />
-        <option value="$PROJECT_DIR$/springcloud/tx-manager/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springcloud/tx-manager/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/java/com/jamie/service/c/biz/CRedisBiz.java" />
         <option value="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml" />
         <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud/config-repo/service-c.yml" />
         <option value="$PROJECT_DIR$/springcloud/config-repo/service-b.yml" />
         <option value="$PROJECT_DIR$/springcloud/config-repo/service-a.yml" />
         <option value="$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/java/com/jamie/web/login/bean/BeanFactory.java" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/resources/templates/login/login.ftl" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/java/com/jamie/web_static/WebStaticApplication.java" />
+        <option value="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/java/com/jamie/web_static/filter/CORSFilter.java" />
+        <option value="$PROJECT_DIR$/common-bean/static-res/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/a.xhtml" />
+        <option value="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/common-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/common-web/src/main/java/com/jamie/common/web/CommonWebApplication.java" />
+        <option value="$PROJECT_DIR$/common-bean/common-web/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/common-web/src/main/java/com/jamie/common/web/filter/WebFilter.java" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/java/com/jamie/web/login/filter/WebAppConfigurer.java" />
+        <option value="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/css/login.css" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/resources/templates/layout/base.ftl" />
+        <option value="$PROJECT_DIR$/common-bean/static-res/web-static/pom.xml" />
+        <option value="$PROJECT_DIR$/common-bean/common-web/src/main/java/com/jamie/common/web/result/ResultBase.java" />
+        <option value="$PROJECT_DIR$/common-bean/common-web/src/main/java/com/jamie/common/web/result/JsonResult.java" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/pojo/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/pojo/vo/UserRoleVo.java" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/service/LoginUserDetailService.java" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/config/ZuulFallbackConfig.java" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/resources/mybatis_mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/service-login/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/web-login/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/java/com/jamie/web/login/WebLoginApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/ServiceLoginApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/login/login.js" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/config/LoginConfig.java" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/java/com/jamie/web/login/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/resources/templates/user/login.ftl" />
+        <option value="$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/config/SpringSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/springcloud/config-repo/service-login.yml" />
       </list>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -257,12 +503,22 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common-bean" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common-bean" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
+    <option name="x" value="-12" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
@@ -271,6 +527,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,71 +538,98 @@
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jamie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jamie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="data-a" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="login-zuul" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jamie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="data-a" type="462c0819:PsiDirectoryNode" />
-              <item name="service-a" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="login-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="service-login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jamie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="data-a" type="462c0819:PsiDirectoryNode" />
-              <item name="service-a" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="login-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="service-login" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jamie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="data-a" type="462c0819:PsiDirectoryNode" />
-              <item name="service-a" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="login-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="service-login" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jamie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="data-a" type="462c0819:PsiDirectoryNode" />
-              <item name="service-a" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="login-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="service-login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="login-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="service-login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="login-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="service-login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="login-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="service-login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="login-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="service-login" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-repo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jamie_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="tx-manager" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,14 +642,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud/tx-manager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud/login-zuul/service-login" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -373,11 +657,18 @@
       <recent name="com.jamie.redis" />
       <recent name="com.jamie.zuul.config" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\cloud\jamie_cloud\common-bean\static-res\web-static\src\main\webapp\static\js\3rd" />
+      <recent name="D:\dev\cloud\jamie_cloud\common-bean\static-res\web-static\src\main\webapp\static\js\3rd\layui" />
+      <recent name="D:\dev\cloud\jamie_cloud\common-bean\static-res\web-static\src\main\webapp\static\css" />
+      <recent name="D:\dev\cloud\jamie_cloud\common-bean\static-res\web-static\src\main\webapp\static\js" />
+      <recent name="D:\dev\cloud\jamie_cloud\jamie-service\common\mybatis-base\src\main\java\com\jamie\mybatis\base\datasource" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\dev\cloud\jamie_cloud\jamie-service\common\mybatis-base\src\main\java\com\jamie\mybatis\base\datasource" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\cloud\jamie_cloud\common-bean\static-res\web-static\src\main\webapp\static\js\3rd\layui" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -392,7 +683,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceZuulApplication">
+  <component name="RunManager" selected="Tomcat Server.web-static">
     <configuration name="ATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="redis" />
       <extension name="coverage">
@@ -440,7 +731,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginConfigTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginConfigTest.test" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="zuul1" />
       <extension name="coverage">
         <pattern>
@@ -468,6 +759,13 @@
       <option name="MAIN_CLASS_NAME" value="com.jamie.redis.api.RedisApiTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jamie.common.web.CommonWebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -514,6 +812,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceLoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-login" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jamie.service.login.ServiceLoginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-mq" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jamie.service.mq.ServiceMqApplication" />
@@ -550,6 +855,103 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebLoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web-login" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jamie.web.login.WebLoginApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebStaticApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web-static" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jamie.web_static.WebStaticApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="web-static" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="web-static:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_cloud_2" />
+        <option name="HTTP_PORT" value="8090" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50390" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="JAVA_TOOL_OPTIONS" />
+          <option name="VALUE" value="-Dfile.encoding=UTF-8" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web-static:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.LoginConfigTest.test" />
       <item itemvalue="JUnit.ATest.test" />
@@ -567,6 +969,11 @@
       <item itemvalue="Spring Boot.ServiceMqApplication" />
       <item itemvalue="Spring Boot.ServiceCApplication" />
       <item itemvalue="Spring Boot.TxManagerApplication " />
+      <item itemvalue="Spring Boot.WebLoginApplication" />
+      <item itemvalue="Spring Boot.WebStaticApplication" />
+      <item itemvalue="Spring Boot.CommonWebApplication" />
+      <item itemvalue="Spring Boot.ServiceLoginApplication" />
+      <item itemvalue="Tomcat Server.web-static" />
     </list>
     <recent_temporary>
       <list>
@@ -574,7 +981,6 @@
         <item itemvalue="JUnit.ATest.test" />
         <item itemvalue="JUnit.ATest.test2" />
         <item itemvalue="JUnit.ATest" />
-        <item itemvalue="JUnit.LoginConfigTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -621,6 +1027,17 @@
       <workItem from="1571657718630" duration="42000" />
       <workItem from="1571657872571" duration="11437000" />
       <workItem from="1571701608344" duration="2518000" />
+      <workItem from="1571787996119" duration="4462000" />
+      <workItem from="1571798402655" duration="1250000" />
+      <workItem from="1571799679777" duration="878000" />
+      <workItem from="1571800589761" duration="1238000" />
+      <workItem from="1571804141286" duration="2871000" />
+      <workItem from="1571822681007" duration="1208000" />
+      <workItem from="1571830733647" duration="12489000" />
+      <workItem from="1571870369867" duration="1428000" />
+      <workItem from="1571874411616" duration="5010000" />
+      <workItem from="1571886213151" duration="2281000" />
+      <workItem from="1571890762027" duration="1641000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1571014324038</created>
@@ -769,7 +1186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571703961269</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="登录模块升级">
+      <created>1571842498038</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1571842498038</updated>
+    </task>
+    <task id="LOCAL-00023" summary="登录模块升级">
+      <created>1571874467507</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1571874467507</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -805,7 +1236,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136135000" />
+    <option name="totallyTimeSpent" value="172265000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -820,7 +1251,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4909091" visible="true" weight="0.2934519" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4909091" visible="true" weight="0.2950687" />
       <window_info id="Structure" order="1" sideWeight="0.5090909" side_tool="true" weight="0.2934519" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -830,19 +1261,20 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.86856127" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49232012" weight="0.5097691" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5168739" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.585287" weight="0.54174066" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4995958" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5076799" side_tool="true" weight="0.53641206" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.41471303" side_tool="true" weight="0.4582593" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3268206" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.4995958" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3285968" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497979" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -910,365 +1342,372 @@
     <MESSAGE value="TX-LCN分布式事务使用LCN以及TCC保证MySQL数据源与Redis数据源事务一致性" />
     <MESSAGE value="TX-Manager使用配置中心" />
     <MESSAGE value="TX-Manager分布式事务管理中心微服务化" />
-    <option name="LAST_COMMIT_MESSAGE" value="TX-Manager分布式事务管理中心微服务化" />
+    <MESSAGE value="登录模块升级" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录模块升级" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/api-c/src/main/java/com/jamie/api/c/service/Urls.java">
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/resources/templates/layout/base.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+        <state relative-caret-position="272">
+          <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/java/com/jamie/service/b/ServiceBApplication.java">
+    <entry file="file://$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/jquery-3.4.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/static-res/web-static/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/3rd/layui/lay/modules/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="24732" selection-start-line="2" selection-start-column="24732" selection-end-line="2" selection-end-column="24732" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/common-web/src/main/java/com/jamie/common/web/result/ResultBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/common-web/src/main/java/com/jamie/common/web/result/JsonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.10.RELEASE/spring-web-5.1.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/java/com/jamie/web/login/filter/WebAppConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/pojo/UserEntity.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/pojo/A.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/pojo/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/pojo/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/pojo/vo/UserRoleVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/pojo/vo/UserRoleVo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/resources/mybatis_mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/biz/LoginBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/config/AuthorizationServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/config/ZuulFallbackConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/test/java/com/jamie/service/login/ServiceLoginApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/resources/mybatis_mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/java/com/jamie/web/login/WebLoginApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/web-b/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/web-b/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/web-login/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="976">
+          <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/web-b/src/main/java/com/jamie/web/b/WebBApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/jamie-service.iml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.10.RELEASE/spring-context-5.1.10.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="581" selection-start-line="581" selection-end-line="581" />
+          <folding>
+            <element signature="e#24016#24017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-bean/static-res/web-static/src/main/webapp/static/js/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/ServiceAApplication.java">
+    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="250">
+          <caret line="65" column="21" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/config/ZuulFallbackConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/ServiceZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/txlcn/txlcn-tc/5.0.2.RELEASE/txlcn-tc-5.0.2.RELEASE.jar!/com/codingapi/txlcn/tc/config/TxClientConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
-          <folding>
-            <element signature="e#2549#2550#0" expanded="true" />
-            <element signature="e#2601#2602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/txlcn/txlcn-tc/5.0.2.RELEASE/txlcn-tc-5.0.2.RELEASE-sources.jar!/com/codingapi/txlcn/tc/config/TxClientConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/codingapi/txlcn/txlcn-tm/5.0.2.RELEASE/txlcn-tm-5.0.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/redis/src/main/java/com/jamie/redis/api/RedisApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/redis/src/main/java/com/jamie/redis/service/RedisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding>
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/web-a/src/main/java/com/jamie/weba/controller/AController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding>
-            <element signature="e#726#727#0" expanded="true" />
             <element signature="e#773#774#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/api-a/src/main/java/com/jamie/api/a/service/ADataApi.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="272">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/db-mybatis-base/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/biz/LoginUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="272">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud/zuul/service-zuul/src/main/java/com/jamie/service/zuul/config/LoginConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="336">
+          <caret line="63" column="35" lean-forward="true" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/tx-manager/src/main/java/com/jamie/tx/manager/entity/DemoEntity.java" />
-    <entry file="file://$PROJECT_DIR$/common-bean/tx-manager/src/main/resources/mybatis_mapper/DemoMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/common-bean/tx-manager/src/main/java/com/jamie/tx/manager/dao/DemoDao.java" />
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/api-c/src/main/java/com/jamie/api/c/vo/Cvo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/collect/Sets.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/java/com/jamie/service/c/ServiceCApplication.java">
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/ServiceLoginApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/txlcn/txlcn-tc/5.0.2.RELEASE/txlcn-tc-5.0.2.RELEASE-sources.jar!/com/codingapi/txlcn/tc/annotation/TccTransaction.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.3.RELEASE/spring-cloud-netflix-zuul-2.1.3.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+        <state relative-caret-position="1664">
+          <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.10.RELEASE/spring-core-5.1.10.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/service/LoginUserDetailService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.10.RELEASE/spring-aop-5.1.10.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="473" selection-start-line="473" selection-end-line="473" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/tx-manager/src/main/java/com/jamie/txmanager/TxManagerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="240">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
           <folding>
-            <element signature="e#586#587#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/tx-manager1/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        <state relative-caret-position="109">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/tx-manager1/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/java/com/jamie/web/login/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/tx-manager1/src/main/java/com/jamie/tx/manager/TxManagerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="256">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
             <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jamie_cloud.iml">
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/web-login/src/main/resources/templates/user/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud/config-repo/zuul.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/biz/ADataBiz.java">
+    <entry file="file://$PROJECT_DIR$/springcloud/login-zuul/service-login/src/main/java/com/jamie/service/login/config/SpringSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/java/com/jamie/servicea/rest/ADataRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/api-c/src/main/java/com/jamie/api/c/service/CRedisApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="93">
+          <caret line="47" column="78" selection-start-line="47" selection-start-column="78" selection-end-line="47" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/java/com/jamie/service/c/rest/CRedisRest.java">
+    <entry file="file://$PROJECT_DIR$/springcloud/config-repo/service-login.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/tx-manager/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/springcloud.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-bean/config-base/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/tx-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="46" column="59" lean-forward="true" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/java/com/jamie/service/c/biz/CRedisBiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/codingapi/txlcn/txlcn-txmsg-netty/5.0.2.RELEASE/txlcn-txmsg-netty-5.0.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/service-c/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="59" column="32" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="126" column="21" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="152" column="38" lean-forward="true" selection-start-line="152" selection-start-column="38" selection-end-line="152" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/config-repo/service-a.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/config-repo/service-b.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/config-repo/service-c.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/config-repo/tx-manager.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-c-redis/service-c/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" selection-start-line="7" selection-start-column="1" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-b/service-b/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jamie-service/data-a/service-a/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" selection-start-line="7" selection-start-column="1" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="427">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1324,7 +1763,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>common-bean</last-edited>
+          <last-edited>web-static</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

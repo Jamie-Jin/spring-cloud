@@ -3,13 +3,15 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-bean" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-bean/common-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-bean/config-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-bean/db-mybatis-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-bean/mq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-bean/mq/api-mq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-bean/mq/service-mq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-bean/redis" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/common-bean/tx-manager1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-bean/static-res" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-bean/static-res/web-static" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-bean/util-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jamie-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jamie-service/data-a" charset="UTF-8" />
@@ -27,6 +29,9 @@
     <file url="file://$PROJECT_DIR$/springcloud/config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/login-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/login-zuul/service-login" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/login-zuul/web-login" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/tx-manager" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/zuul/service-zuul" charset="UTF-8" />

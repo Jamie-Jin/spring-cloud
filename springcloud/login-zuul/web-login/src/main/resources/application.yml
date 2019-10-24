@@ -1,0 +1,18 @@
+server:
+  port: 2005
+
+spring:
+  application:
+    name: web-login
+  freemarker:
+    template-loader-path: classpath:/templates/
+    cache: true
+    check-template-location: true
+    content-type: text/html;charset=UTF-8
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: req
+    suffix: .ftl
+
+cdn:
+  url: http://localhost:8090/static

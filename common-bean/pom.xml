@@ -25,6 +25,7 @@
         <module>db-mybatis-base</module>
         <module>redis</module>
         <module>mq</module>
+        <module>common-web</module>
     </modules>
 
 </project>

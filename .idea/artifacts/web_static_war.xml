@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="web-static:war">
+    <output-path>$PROJECT_DIR$/common-bean/static-res/web-static/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>web-static</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="web-static-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="web-static:war exploded" />
+    </root>
+  </artifact>
+</component>
