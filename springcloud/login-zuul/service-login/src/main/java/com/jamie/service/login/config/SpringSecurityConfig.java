@@ -21,6 +21,12 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private LoginUserDetailService loginUserDetailService;
 
+    @Autowired
+    private LoginSuccessHandler loginSuccessHandler;
+
+    @Autowired
+    private LoginFailHandler loginFailHandler;
+
     /**
      * 配置路径访问权限
      * @param http
@@ -41,8 +47,12 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
             // 使用自定义登录页，见LoginController
             // loginProcessingUrl一定要配，一定要配，写上要怎么配
-            // loginPage配上自定义登录页的controller路径，loginProcessingUrl同样
-            .and().formLogin().loginPage("/login-page").loginProcessingUrl("/login-page").defaultSuccessUrl("/user/login-success")
+            // loginPage配上自定义登录页的controller路径(要加上zuul的前缀)，loginProcessingUrl配置自定义登录页Controller路径（不需夹zuul的前缀）
+            .and().formLogin().loginPage("/user/login-page").loginProcessingUrl("/login-page")
+                //.successForwardUrl("/user/login-success")
+            .permitAll()
+            .successHandler(loginSuccessHandler) //自定义登录成功处理器
+            .failureHandler(loginFailHandler)   //自定义登录失败处理器
 
             .and().httpBasic()
             //.and().rememberMe().tokenValiditySeconds(120) //此处是设置remember me的超时时间

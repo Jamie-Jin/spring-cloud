@@ -34,7 +34,11 @@ mybatis:
 zuul:
   ignored-services: '*'
   routes:
-    web-a: /a/**
+    web-a:
+      path: /a/**
+      serviceId: web-a
+      url: http://localhost:2001/
+      sensitive-headers: Cookie,Set-Cookie,Authorization
     web-b: /b/**
     web-login:
       path: /user/**
@@ -43,5 +47,3 @@ zuul:
       sensitive-headers: Cookie,Set-Cookie,Authorization
   add-host-header: true
   strip-prefix: true
-
-

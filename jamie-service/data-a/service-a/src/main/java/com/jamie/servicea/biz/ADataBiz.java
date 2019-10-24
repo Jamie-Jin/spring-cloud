@@ -28,28 +28,29 @@ public class ADataBiz {
     private MessageApi messageApi;
 
     public TestEntity getTest() {
-        try {
-            AVo messageVo = new AVo();
-            messageVo.setAge(25);
-            messageVo.setName("杨嘉晋");
-            messageVo.setHeight(170.50);
-            messageVo.setId(440681199407250217L);
-            messageVo.setMoney(new BigDecimal(92000.50));
-            List<String> hobbies = new ArrayList<>();
-            hobbies.add("笔记本");
-            hobbies.add("HiFi");
-            messageVo.setHobbies(hobbies);
-            messageVo.setToday(new Date());
-
-            NotifyVo notifyVo = new NotifyVo();
-            notifyVo.setNotifyId(GUID.getUUID());   //消息唯一标识
-            notifyVo.setRoutingKey("mq.A_TO_B");    //消息路由Key
-            notifyVo.setBody(new Gson().toJson(messageVo));//消息内容
-
-            messageApi.sendMessage(notifyVo);
-        } catch (Exception e){
-            e.printStackTrace();
-        }
+        // TODO 发送MQ的代码，暂时频闭
+//        try {
+//            AVo messageVo = new AVo();
+//            messageVo.setAge(25);
+//            messageVo.setName("杨嘉晋");
+//            messageVo.setHeight(170.50);
+//            messageVo.setId(440681199407250217L);
+//            messageVo.setMoney(new BigDecimal(92000.50));
+//            List<String> hobbies = new ArrayList<>();
+//            hobbies.add("笔记本");
+//            hobbies.add("HiFi");
+//            messageVo.setHobbies(hobbies);
+//            messageVo.setToday(new Date());
+//
+//            NotifyVo notifyVo = new NotifyVo();
+//            notifyVo.setNotifyId(GUID.getUUID());   //消息唯一标识
+//            notifyVo.setRoutingKey("mq.A_TO_B");    //消息路由Key
+//            notifyVo.setBody(new Gson().toJson(messageVo));//消息内容
+//
+//            messageApi.sendMessage(notifyVo);
+//        } catch (Exception e){
+//            e.printStackTrace();
+//        }
 
         return aDataDao.getTest();
     }
